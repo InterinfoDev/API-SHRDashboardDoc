@@ -47,7 +47,7 @@ Here is a JSON representation of request.
 | companyId | 1 | Array(String) | 公司代號 | N | n/a |
 | workPlace | TW1 | String | 部門代碼 | N | n/a |
 | depType | 3 | Integer | 統計階層 | Y | n/a |
-| yymm | 202301 | String) | 本期月份 | Y | YYYYmm |
+| yymm | 202301 | String | 本期月份 | Y | YYYYmm |
 | lastYymm | 202112 | String | 上期月份 | Y | YYYYmm |
 
 ### requestBody FieldName
