@@ -27,7 +27,7 @@ Here is a JSON representation of request.
     "companyId":["1"]
     ,"depNumber":[4]
     ,"assessItem":["A"]
-    ,"depType": "7"
+    ,"depType": 7
     ,"yy": "2022"
     ,"lastYymm": "2021"
   },
@@ -47,7 +47,7 @@ Here is a JSON representation of request.
 |:----------|:-------------|:-----|:------------|:------------|:------------|
 | companyId | 1 | Array(String) | 公司代號 | N | n/a |
 | depNumber | 4 | Array(Integer) | 部門代碼 | N | n/a |
-| depType | 7 | String| 統計階層 | Y | n/a |
+| depType | 7 | Integer | 統計階層 | Y | n/a |
 | yy | 2022 | String | 本期月份 | Y | YYYYmm |
 | lastYy | 2021 | String | 上期月份 | Y | YYYYmm |
 
