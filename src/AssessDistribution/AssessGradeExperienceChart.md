@@ -27,7 +27,7 @@ Here is a JSON representation of request.
     "companyId":["1"]
     ,"assessItem":["A","B"]
     ,"depNumber":[1,2,3,4]
-    ,"depType": "3"
+    ,"depType": 3
     ,"yy": "2022"
   },
   "uid":"98599308101484732326",
@@ -47,7 +47,7 @@ Here is a JSON representation of request.
 | companyId | 1 | Array(String) | 公司代號 | N | n/a |
 | assessItem | A,B | Array(String) | 考核項目 | Y | n/a |
 | depNumber | 1,2,3,4 | Array(Integer) | 部門代碼 | N | n/a |
-| depType | 3 | String| 統計階層 | Y | n/a |
+| depType | 3 | Integer | 統計階層 | Y | n/a |
 | yy | 2022 | String | 本期月份 | Y | YYYYmm |
 
 ### requestBody FieldName
