@@ -1,9 +1,9 @@
-# InterviewPopulationChart
-本期-甄試結果人數分析
+# InterviewPopulationOldChart
+上期-甄試結果人數分析
 
 ### HTTP Request
 ```
-http://59.124.100.151:8090/servlet/apiM/dashboard/V1/interfaces/RecruitDemandResult/InterviewPopulationChart
+http://59.124.100.151:8090/servlet/apiM/dashboard/V1/interfaces/RecruitDemandResult/InterviewPopulationOldChart
 ```
 
 ### HTTP Request Mehod
@@ -45,7 +45,7 @@ Here is a JSON representation of request.
 |:----------|:-------------|:-----|:------------|:------------|:------------|
 | companyId | 1 | Array(String) | 公司代號 | N | n/a |
 | depNumber |  | Array(Integer) | 部門代碼 | N | n/a |
-| depType | 3 | String | 統計階層 | Y | n/a |
+| depType | 3 | Integer | 統計階層 | Y | n/a |
 | yymm | 202212 | String | 本期月份 | Y | YYYYmm |
 
 
