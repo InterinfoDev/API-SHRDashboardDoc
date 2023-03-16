@@ -417,6 +417,44 @@ Here is a JSON representation of request.
             ]
          ]
       },
+      "quitReason":{
+         "name":[
+            "工作內容",
+            "_8"
+         ],
+         "totalPeople":[
+            2,
+            1
+         ],
+         "percent":[
+            67.0,
+            33.0
+         ],
+         "employeeList":[
+            [
+               {
+                  "department":"",
+                  "photo":"",
+                  "employeeFullName":"金O淇",
+                  "possieName":""
+               },
+               {
+                  "department":"英特內(台北)",
+                  "photo":"",
+                  "employeeFullName":"再測二",
+                  "possieName":"系統管理員"
+               }
+            ],
+            [
+               {
+                  "department":"L1線B班",
+                  "photo":"",
+                  "employeeFullName":"池O祥",
+                  "possieName":"董事長"
+               }
+            ]
+         ]
+      },
       "title":[
          {
             "titleKey":"photo",
