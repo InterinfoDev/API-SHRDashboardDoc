@@ -51,10 +51,17 @@ Here is a JSON representation of request.
 ### requestBody FieldName
 | FieldName | Description |
 |:----------|:-------------|
-| data | 欄位資料 |
-| name | 考核等級中文 |
-| pass | 是否合格 |
-| value | 考核人數 |
+| sex | 性別 |
+| seniority | 年資 |
+| age | 年齡 |
+| place | 地點 |
+| grade | 職等 |
+| depFunction | 部門功能 |
+| possieKind | 職類 |
+| education | 學歷 |
+| possie | 職位 |
+| inWay | 入職管道 |
+| title | 人員基本資料標題 |
 
 
 ### HTTP Response when Successful
@@ -430,6 +437,18 @@ Here is a JSON representation of request.
                   "possieName":"課長(一)"
                },
                {
+                  "department":"總經理",
+                  "photo":"",
+                  "employeeFullName":"課長",
+                  "possieName":"課長(一)"
+               },
+               {
+                  "department":"副總",
+                  "photo":"",
+                  "employeeFullName":"副總",
+                  "possieName":"副總經理"
+               },
+               {
                   "department":"副總",
                   "photo":"",
                   "employeeFullName":"副總",
@@ -440,6 +459,18 @@ Here is a JSON representation of request.
                   "photo":"",
                   "employeeFullName":"部門長",
                   "possieName":"經理"
+               },
+               {
+                  "department":"部門長",
+                  "photo":"",
+                  "employeeFullName":"部門長",
+                  "possieName":"經理"
+               },
+               {
+                  "department":"課",
+                  "photo":"/servlet/jform?em_step=2&file=hrm8w.pkg&enc=93d23f3a4b3f28574d52634f57504b50637a726f607b7b7b0f0d114f5158",
+                  "employeeFullName":"職員",
+                  "possieName":"專員(一)"
                },
                {
                   "department":"課",
@@ -485,6 +516,75 @@ Here is a JSON representation of request.
                   "photo":"",
                   "employeeFullName":"部門長",
                   "possieName":"經理"
+               },
+               {
+                  "department":"課",
+                  "photo":"/servlet/jform?em_step=2&file=hrm8w.pkg&enc=93d23f3a4b3f28574d52634f57504b50637a726f607b7b7b0f0d114f5158",
+                  "employeeFullName":"職員",
+                  "possieName":"專員(一)"
+               }
+            ]
+         ]
+      },
+      "inWay":{
+         "name":[
+            ""
+         ],
+         "totalPeople":[
+            5
+         ],
+         "percent":[
+            100.0
+         ],
+         "employeeList":[
+            [
+               {
+                  "department":"總經理",
+                  "photo":"",
+                  "employeeFullName":"總經理",
+                  "possieName":"總經理"
+               },
+               {
+                  "department":"總經理",
+                  "photo":"",
+                  "employeeFullName":"課長",
+                  "possieName":"課長(一)"
+               },
+               {
+                  "department":"總經理",
+                  "photo":"",
+                  "employeeFullName":"課長",
+                  "possieName":"課長(一)"
+               },
+               {
+                  "department":"副總",
+                  "photo":"",
+                  "employeeFullName":"副總",
+                  "possieName":"副總經理"
+               },
+               {
+                  "department":"副總",
+                  "photo":"",
+                  "employeeFullName":"副總",
+                  "possieName":"副總經理"
+               },
+               {
+                  "department":"部門長",
+                  "photo":"",
+                  "employeeFullName":"部門長",
+                  "possieName":"經理"
+               },
+               {
+                  "department":"部門長",
+                  "photo":"",
+                  "employeeFullName":"部門長",
+                  "possieName":"經理"
+               },
+               {
+                  "department":"課",
+                  "photo":"/servlet/jform?em_step=2&file=hrm8w.pkg&enc=93d23f3a4b3f28574d52634f57504b50637a726f607b7b7b0f0d114f5158",
+                  "employeeFullName":"職員",
+                  "possieName":"專員(一)"
                },
                {
                   "department":"課",
