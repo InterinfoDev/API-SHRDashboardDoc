@@ -51,10 +51,17 @@ Here is a JSON representation of request.
 ### requestBody FieldName
 | FieldName | Description |
 |:----------|:-------------|
-| data | 欄位資料 |
-| name | 考核等級中文 |
-| pass | 是否合格 |
-| value | 考核人數 |
+| sex | 性別 |
+| seniority | 年資 |
+| age | 年齡 |
+| place | 地點 |
+| grade | 職等 |
+| depFunction | 部門功能 |
+| possieKind | 職類 |
+| education | 學歷 |
+| possie | 職位 |
+| quitReason | 離職原因 |
+| title | 人員基本資料標題 |
 
 
 ### HTTP Response when Successful
