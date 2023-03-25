@@ -64,13 +64,6 @@ Here is a JSON representation of request.
       "resultCode":"200"
    },
    "responseBody":{
-      "series":[
-        {
-   "responseHeader":{
-      "resultMessage":"執行成功",
-      "resultCode":"200"
-   },
-   "responseBody":{
       "data":[
          {
             "wayName":"104人力銀行",
