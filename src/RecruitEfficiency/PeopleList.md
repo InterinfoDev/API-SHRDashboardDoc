@@ -56,7 +56,7 @@ Here is a JSON representation of request.
 | label | 標題訊息 |
 | period | 本期 |
 | lastPeriod | 上期 |
-| employeeName | 員工中文姓名 |
+| EmpFullName | 員工中文姓名 |
 | employeeId | 員工編號 |
 | status | 招募狀態 |
 | photo | 照片 |
@@ -71,11 +71,11 @@ Here is a JSON representation of request.
    "responseBody":{
       "label":[
          {
-            "labelWame":"姓名",
+            "labelName":"姓名",
             "labelKey":"empFulName"
          },
          {
-            "labelWame":"員工編號",
+            "labelName":"員工編號",
             "labelKey":"employeeId"
          },
          {
@@ -85,7 +85,7 @@ Here is a JSON representation of request.
       ],
       "period":[
          {
-            "employeeName":"陳小美",
+            "EmpFullName":"陳小美",
             "employeeId":"L12345",
             "status":"已報到",
             "photo":"https://www.yahoo.com.tw"
@@ -93,7 +93,7 @@ Here is a JSON representation of request.
       ],
       "lastPeriod":[
          {
-            "employeeName":"陳小美",
+            "EmpFullName":"陳小美",
             "employeeId":"L12345",
             "status":"已報到",
             "photo":"https://www.yahoo.com.tw"
