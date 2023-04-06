@@ -57,7 +57,6 @@ Here is a JSON representation of request.
 | name | 名稱 |
 | type | 圖表格式 |
 | xaxis | X軸 |
-| data | X軸資料 |
 | yaxis | Y軸 |
 | name | 名稱 |
 | position | 設定 |
