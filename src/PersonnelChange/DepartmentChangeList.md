@@ -52,192 +52,303 @@ Here is a JSON representation of request.
 ### requestBody FieldName
 | FieldName | Description |
 |:----------|:-------------|
-| rateList | 比率列表 |
-| lableName | 標題名稱 |
-| data | 資料(比率的值) |
+
 
 
 
 ### HTTP Response when Successful
 ```json
 {
-   "responseHeader":{
-      "resultMessage":"執行成功",
-      "resultCode":"200"
-   },
-   "responseBody":{
-      "title":"部門異動列表",
-      "rateList":[
-         {
-            "rateKey":"stayRate",
-            "rateName":"留任率"
-         },
-         {
-            "rateKey":"inRate",
-            "rateName":"進任率"
-         },
-         {
-            "rateKey":"quiteRate",
-            "rateName":"離職率"
-         },
-         {
-            "rateKey":"lostRate",
-            "rateName":"流失率"
-         },
-         {
-            "rateKey":"stopRate",
-            "rateName":"留停率"
-         },
-         {
-            "rateKey":"sameLostRate",
-            "rateName":"同期流失率"
-         }
-      ],
-      "lableName":[
-         "",
-         "部門",
-         "調入",
-         "調出",
-         "離職",
-         "復職",
-         "期初",
-         "期末"
-      ],
-      "data":{
-         "lostRate":[
-            [
-               "0.00",
-               "消失的部門",
-               "0",
-               "0",
-               "0",
-               "0",
-               "76",
-               "76"
-            ],
-            [
-               "0.00",
-               "L1線A班",
-               "1",
-               "0",
-               "0",
-               "0",
-               "24",
-               "25"
-            ]
-         ],
-         "stopRate":[
-            [
-               "0.00",
-               "消失的部門",
-               "0",
-               "0",
-               "0",
-               "0",
-               "76",
-               "76"
-            ],
-            [
-               "0.00",
-               "L1線A班",
-               "1",
-               "0",
-               "0",
-               "0",
-               "24",
-               "25"
-            ]
-         ],
-         "sameLostRate":[
-            [
-               "-7600.00",
-               "消失的部門",
-               "0",
-               "0",
-               "0",
-               "0",
-               "76",
-               "76"
-            ],
-            [
-               "-2400.00",
-               "L1線A班",
-               "1",
-               "0",
-               "0",
-               "0",
-               "24",
-               "25"
-            ]
-         ],
-         "stayRate":[
-            [
-               "100.00",
-               "消失的部門",
-               "0",
-               "0",
-               "0",
-               "0",
-               "76",
-               "76"
-            ],
-            [
-               "100.00",
-               "L1線A班",
-               "1",
-               "0",
-               "0",
-               "0",
-               "24",
-               "25"
-            ]
-         ],
-         "quiteRate":[
-            [
-               "0.00",
-               "消失的部門",
-               "0",
-               "0",
-               "0",
-               "0",
-               "76",
-               "76"
-            ],
-            [
-               "0.00",
-               "L1線A班",
-               "1",
-               "0",
-               "0",
-               "0",
-               "24",
-               "25"
-            ]
-         ],
-         "inRate":[
-            [
-               "0.00",
-               "消失的部門",
-               "0",
-               "0",
-               "0",
-               "0",
-               "76",
-               "76"
-            ],
-            [
-               "4.00",
-               "L1線A班",
-               "1",
-               "0",
-               "0",
-               "0",
-               "24",
-               "25"
-            ]
-         ]
+  "responseHeader": {
+    "resultMessage": "執行成功",
+    "resultCode": "200"
+  },
+  "responseBody": {
+    "title": "部門異動列表",
+    "rateList": [
+      {
+        "title": "留任率",
+        "key": "retentionRate"
+      },
+      {
+        "title": "進任率",
+        "key": "admissionRate"
+      },
+      {
+        "title": "離職率",
+        "key": "dimissionRate"
+      },
+      {
+        "title": "流失率",
+        "key": "staffTurnoverRate"
+      },
+      {
+        "title": "留停率",
+        "key": "unpaidLeaveRate"
+      },
+      {
+        "title": "同期流失率",
+        "key": "simultaneousStaffTurnoverRate"
       }
-   }
+    ],
+    "lableList": [
+      {
+        "title": "部門",
+        "key": "depName"
+      },
+      {
+        "title": "調入",
+        "key": "transferIn"
+      },
+      {
+        "title": "調出",
+        "key": "transferOut"
+      },
+      {
+        "title": "離職",
+        "key": "resign"
+      },
+      {
+        "title": "復職",
+        "key": "rehab"
+      },
+      {
+        "title": "期初",
+        "key": "beginning"
+      },
+      {
+        "title": "期末",
+        "key": "ending"
+      }
+    ],
+    "departmentList": [
+      {
+        "depName": "消失的部門",
+        "transferIn": "0",
+        "transferOut": "0",
+        "resign": "0",
+        "rehab": "0",
+        "beginning": "76",
+        "ending": "76",
+        "retentionRate": "100.00",
+        "admissionRate": "0.00",
+        "dimissionRate": "0.00",
+        "staffTurnoverRate": "0.00",
+        "unpaidLeaveRate": "0.00",
+        "simultaneousStaffTurnoverRate": "-7600.00"
+      },
+      {
+        "depName": "L1線A班",
+        "transferIn": "1",
+        "transferOut": "0",
+        "resign": "0",
+        "rehab": "0",
+        "beginning": "24",
+        "ending": "25",
+        "retentionRate": "100.00",
+        "admissionRate": "4.00",
+        "dimissionRate": "0.00",
+        "staffTurnoverRate": "0.00",
+        "unpaidLeaveRate": "0.00",
+        "simultaneousStaffTurnoverRate": "-2400.00"
+      },
+      {
+        "depName": "企劃部",
+        "transferIn": "1",
+        "transferOut": "0",
+        "resign": "0",
+        "rehab": "0",
+        "beginning": "17",
+        "ending": "19",
+        "retentionRate": "105.88",
+        "admissionRate": "5.56",
+        "dimissionRate": "0.00",
+        "staffTurnoverRate": "0.00",
+        "unpaidLeaveRate": "0.00",
+        "simultaneousStaffTurnoverRate": "-1700.00"
+      },
+      {
+        "depName": "英特內(台北)",
+        "transferIn": "0",
+        "transferOut": "0",
+        "resign": "0",
+        "rehab": "0",
+        "beginning": "4",
+        "ending": "4",
+        "retentionRate": "100.00",
+        "admissionRate": "0.00",
+        "dimissionRate": "0.00",
+        "staffTurnoverRate": "0.00",
+        "unpaidLeaveRate": "0.00",
+        "simultaneousStaffTurnoverRate": "-400.00"
+      },
+      {
+        "depName": "顧問處",
+        "transferIn": "0",
+        "transferOut": "1",
+        "resign": "0",
+        "rehab": "0",
+        "beginning": "18",
+        "ending": "18",
+        "retentionRate": "100.00",
+        "admissionRate": "0.00",
+        "dimissionRate": "0.00",
+        "staffTurnoverRate": "0.00",
+        "unpaidLeaveRate": "0.00",
+        "simultaneousStaffTurnoverRate": "-1800.00"
+      },
+      {
+        "depName": "支援部",
+        "transferIn": "1",
+        "transferOut": "1",
+        "resign": "0",
+        "rehab": "0",
+        "beginning": "5",
+        "ending": "5",
+        "retentionRate": "80.00",
+        "admissionRate": "20.00",
+        "dimissionRate": "0.00",
+        "staffTurnoverRate": "0.00",
+        "unpaidLeaveRate": "0.00",
+        "simultaneousStaffTurnoverRate": "-400.00"
+      },
+      {
+        "depName": "測試部",
+        "transferIn": "0",
+        "transferOut": "3",
+        "resign": "0",
+        "rehab": "0",
+        "beginning": "7",
+        "ending": "4",
+        "retentionRate": "57.14",
+        "admissionRate": "0.00",
+        "dimissionRate": "0.00",
+        "staffTurnoverRate": "0.00",
+        "unpaidLeaveRate": "0.00",
+        "simultaneousStaffTurnoverRate": "-600.00"
+      },
+      {
+        "depName": "福委會",
+        "transferIn": "0",
+        "transferOut": "0",
+        "resign": "0",
+        "rehab": "0",
+        "beginning": "4",
+        "ending": "4",
+        "retentionRate": "100.00",
+        "admissionRate": "0.00",
+        "dimissionRate": "0.00",
+        "staffTurnoverRate": "0.00",
+        "unpaidLeaveRate": "0.00",
+        "simultaneousStaffTurnoverRate": "-400.00"
+      },
+      {
+        "depName": "test",
+        "transferIn": "0",
+        "transferOut": "0",
+        "resign": "0",
+        "rehab": "0",
+        "beginning": "2",
+        "ending": "2",
+        "retentionRate": "100.00",
+        "admissionRate": "0.00",
+        "dimissionRate": "0.00",
+        "staffTurnoverRate": "0.00",
+        "unpaidLeaveRate": "0.00",
+        "simultaneousStaffTurnoverRate": "-200.00"
+      },
+      {
+        "depName": "英特內股份有限公司",
+        "transferIn": "0",
+        "transferOut": "0",
+        "resign": "0",
+        "rehab": "0",
+        "beginning": "4",
+        "ending": "4",
+        "retentionRate": "100.00",
+        "admissionRate": "0.00",
+        "dimissionRate": "0.00",
+        "staffTurnoverRate": "0.00",
+        "unpaidLeaveRate": "0.00",
+        "simultaneousStaffTurnoverRate": "-400.00"
+      },
+      {
+        "depName": "總經理",
+        "transferIn": "0",
+        "transferOut": "0",
+        "resign": "0",
+        "rehab": "0",
+        "beginning": "5",
+        "ending": "5",
+        "retentionRate": "100.00",
+        "admissionRate": "0.00",
+        "dimissionRate": "0.00",
+        "staffTurnoverRate": "0.00",
+        "unpaidLeaveRate": "0.00",
+        "simultaneousStaffTurnoverRate": "-500.00"
+      },
+      {
+        "depName": "副總",
+        "transferIn": "0",
+        "transferOut": "0",
+        "resign": "0",
+        "rehab": "0",
+        "beginning": "6",
+        "ending": "6",
+        "retentionRate": "100.00",
+        "admissionRate": "0.00",
+        "dimissionRate": "0.00",
+        "staffTurnoverRate": "0.00",
+        "unpaidLeaveRate": "0.00",
+        "simultaneousStaffTurnoverRate": "-600.00"
+      },
+      {
+        "depName": "部門長",
+        "transferIn": "0",
+        "transferOut": "0",
+        "resign": "0",
+        "rehab": "0",
+        "beginning": "2",
+        "ending": "2",
+        "retentionRate": "100.00",
+        "admissionRate": "0.00",
+        "dimissionRate": "0.00",
+        "staffTurnoverRate": "0.00",
+        "unpaidLeaveRate": "0.00",
+        "simultaneousStaffTurnoverRate": "-200.00"
+      },
+      {
+        "depName": "課",
+        "transferIn": "0",
+        "transferOut": "0",
+        "resign": "0",
+        "rehab": "0",
+        "beginning": "1",
+        "ending": "1",
+        "retentionRate": "100.00",
+        "admissionRate": "0.00",
+        "dimissionRate": "0.00",
+        "staffTurnoverRate": "0.00",
+        "unpaidLeaveRate": "0.00",
+        "simultaneousStaffTurnoverRate": "-100.00"
+      },
+      {
+        "depName": "ABC",
+        "transferIn": "0",
+        "transferOut": "0",
+        "resign": "0",
+        "rehab": "0",
+        "beginning": "1",
+        "ending": "1",
+        "retentionRate": "100.00",
+        "admissionRate": "0.00",
+        "dimissionRate": "0.00",
+        "staffTurnoverRate": "0.00",
+        "unpaidLeaveRate": "0.00",
+        "simultaneousStaffTurnoverRate": "-100.00"
+      }
+    ]
+  }
 }
 ```
 
