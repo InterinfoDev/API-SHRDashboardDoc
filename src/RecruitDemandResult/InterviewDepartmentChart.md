@@ -61,6 +61,8 @@ Here is a JSON representation of request.
 | depNumber | 部門代碼 |
 | yymm | 本期月份 |
 | xaxis | 對照各項人數數值的部們 |
+| lastPeriod | 上期資料 |
+| period | 本期資料 |
 
 ### HTTP Response when Successful
 ```json
