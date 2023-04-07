@@ -71,39 +71,69 @@ Here is a JSON representation of request.
       "resultCode":"200"
    },
    "responseBody":{
-      "series":[
-         {
-            "data":[
-               1,
-               1,
-               1,
-               0,
-               0,
-               0
-            ],
-            "name":"人數",
-            "type":"bar"
-         },
-         {
-            "data":[
-               null,
-               0.0,
-               0.0,
-               -1.0,
-               0.0,
-               null
-            ],
-            "name":"比率",
-            "type":"line"
-         }
-      ],
+      "period":{
+         "series":[
+            {
+               "data":[
+                  1,
+                  1,
+                  1,
+                  0,
+                  0,
+                  0
+               ],
+               "name":"人數",
+               "type":"bar"
+            },
+            {
+               "data":[
+                  null,
+                  0.0,
+                  0.0,
+                  -1.0,
+                  0.0,
+                  null
+               ],
+               "name":"比率",
+               "type":"line"
+            }
+         ]
+      },
+      "lastPeriod":{
+         "series":[
+            {
+               "data":[
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+               ],
+               "name":"人數",
+               "type":"bar"
+            },
+            {
+               "data":[
+                  null,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  null
+               ],
+               "name":"比率",
+               "type":"line"
+            }
+         ]
+      },
       "xaxis":{
          "data":[
-            "求職履歷筆數",
+            "履歷筆數",
             "邀約人數",
             "面試人數",
             "錄取人數",
-            "實際報到人數",
+            "報到人數",
             "離職人數"
          ]
       },
