@@ -60,6 +60,8 @@ Here is a JSON representation of request.
 | companyId | 公司別 |
 | depNumber | 部門代碼 |
 | yymm | 本期月份 |
+| lastPeriod | 上期資料 |
+| period | 本期資料 |
 
 ### HTTP Response when Successful
 ```json
