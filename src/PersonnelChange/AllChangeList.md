@@ -52,53 +52,53 @@ Here is a JSON representation of request.
 ### requestBody FieldName
 | FieldName | Description |
 |:----------|:-------------|
-| itemKey | 比率項目key |
-| itemName | 比率項目中文名稱 |
+| key | 比率項目key |
+| title | 比率項目中文名稱 |
 | percent | 數據比率 |
 
 
 ### HTTP Response when Successful
 ```json
 {
-  "responseHeader": {
-    "resultMessage": "執行成功",
-    "resultCode": "200"
-  },
-  "responseBody": {
-    "listAllChangeListOP": [
-      {
-        "itemKey": "stayRate",
-        "itemName": "留任率",
-        "percent": "98.30"
-      },
-      {
-        "itemKey": "inRate",
-        "itemName": "進任率",
-        "percent": "1.70"
-      },
-      {
-        "itemKey": "quiteRate",
-        "itemName": "離職率",
-        "percent": "0.00"
-      },
-      {
-        "itemKey": "lostRate",
-        "itemName": "流失率",
-        "percent": "0.00"
-      },
-      {
-        "itemKey": "stopRate",
-        "itemName": "留停率",
-        "percent": "0.00"
-      },
-      {
-        "itemKey": "sameLostRate",
-        "itemName": "同期流失率",
-        "percent": "-17300.00"
-      }
-    ],
-    "title": "整體異動數據"
-  }
+   "responseHeader":{
+      "resultMessage":"執行成功",
+      "resultCode":"200"
+   },
+   "responseBody":{
+      "listAllChangeListOP":[
+         {
+            "title":"留任率",
+            "key":"stayRate",
+            "percent":"98.30"
+         },
+         {
+            "title":"進任率",
+            "key":"inRate",
+            "percent":"1.70"
+         },
+         {
+            "title":"離職率",
+            "key":"quiteRate",
+            "percent":"0.00"
+         },
+         {
+            "title":"流失率",
+            "key":"lostRate",
+            "percent":"0.00"
+         },
+         {
+            "title":"留停率",
+            "key":"stopRate",
+            "percent":"0.00"
+         },
+         {
+            "title":"同期流失率",
+            "key":"sameLostRate",
+            "percent":"-17300.00"
+         }
+      ],
+      "title":"整體異動數據"
+   }
 }
 ```
 
