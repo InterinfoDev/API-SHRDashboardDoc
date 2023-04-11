@@ -71,6 +71,10 @@ Here is a JSON representation of request.
    "responseBody":{
       "label":[
          {
+            "labelName":"",
+            "labelKey":"photo"
+         },
+         {
             "labelName":"姓名",
             "labelKey":"empFullName"
          },
