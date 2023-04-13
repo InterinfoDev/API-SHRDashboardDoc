@@ -78,11 +78,11 @@ Here is a JSON representation of request.
          },
          {
             "labelName":"202109",
-            "labelKey":"YyMm"
+            "labelKey":"nowAmt"
          },
          {
             "labelName":"202108",
-            "labelKey":"lastYyMm"
+            "labelKey":"lastAmt"
          },
          {
             "labelName":"上升/下降",
