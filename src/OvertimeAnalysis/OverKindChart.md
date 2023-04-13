@@ -53,9 +53,10 @@ Here is a JSON representation of request.
 ### requestBody FieldName
 | FieldName | Description |
 |:----------|:-------------|
-| data | 欄位資料 |
-| name | 欄位名稱 |
-| periodYM | 期數月份 |
+| period | 本期日期 |
+| lastPeriod | 上期日期 |
+| overTimeName | 加班種類名稱 |
+| people | 人數 |
 
 ### HTTP Response when Successful
 ```json
