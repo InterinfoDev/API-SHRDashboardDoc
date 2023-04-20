@@ -51,7 +51,8 @@ Here is a JSON representation of request.
 ### requestBody FieldName
 | FieldName | Description |
 |:----------|:-------------|
-
+| vacationKind | 假別 |
+| vacationNum | 請假人數 |
 
 
 ### HTTP Response when Successful
