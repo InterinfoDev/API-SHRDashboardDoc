@@ -51,8 +51,10 @@ Here is a JSON representation of request.
 ### requestBody FieldName
 | FieldName | Description |
 |:----------|:-------------|
-
-
+| attendNum | 應出勤 |
+| realAttendNum | 實際出勤 |
+| vacationNum | 請假人數(應出勤和實際出勤相差人數) |
+| vacationRate | 請假倍率 |
 
 ### HTTP Response when Successful
 ```json
