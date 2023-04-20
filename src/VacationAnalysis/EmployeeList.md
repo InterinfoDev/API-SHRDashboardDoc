@@ -50,8 +50,15 @@ Here is a JSON representation of request.
 ### requestBody FieldName
 | FieldName | Description |
 |:----------|:-------------|
-
-
+| title | 標題 |
+| labelName | 標題名稱 |
+|  |
+| photo | 照片 |
+| employeeId | 員工編號 |
+| employeeFullName | 員工名稱 |
+| possieName | 職稱 |
+| vacationKind | 假別名稱 |
+| departmentFullName | 部門名稱 |
 
 ### HTTP Response when Successful
 ```json
