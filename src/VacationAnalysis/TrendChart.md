@@ -50,7 +50,9 @@ Here is a JSON representation of request.
 ### requestBody FieldName
 | FieldName | Description |
 |:----------|:-------------|
-
+| series | 每個日期裡面的所有倍率 |
+| name | 假別 |
+| xaxis | 放日期資料 |
 
 
 ### HTTP Response when Successful
