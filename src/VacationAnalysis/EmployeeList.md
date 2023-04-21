@@ -93,43 +93,36 @@ Here is a JSON representation of request.
       "dataList":[
          {
             "photo":"",
-            "employeeId":"0310",
-            "employeeFullName":"卓O伶",
-            "possieName":"顧問(二)",
+            "employeeId":"test2yearshour1",
+            "employeeFullName":"測試兩年病假時數1",
+            "possieName":"職員",
             "vacationKind":[
-               "半薪病假"
+               "2(時)測試兩年假別"
             ],
-            "departmentFullName":"顧問處"
+            "departmentFullName":"勞安部",
+            "employeeFullEName":""
          },
          {
             "photo":"",
-            "employeeId":"1617",
-            "employeeFullName":"楊O齊",
-            "possieName":"正工程師(一)",
+            "employeeId":"test2yearshour2",
+            "employeeFullName":"測試兩年病假時數2",
+            "possieName":"職員",
             "vacationKind":[
-               "半薪病假"
+               "2(時)測試兩年假別"
             ],
-            "departmentFullName":"副總"
+            "departmentFullName":"勞安部",
+            "employeeFullEName":""
          },
          {
-            "photo":"hrm/photo/1531381267307_1_褚家妤.PNG",
-            "employeeId":"0538",
-            "employeeFullName":"池O祥",
-            "possieName":"系統管理員",
+            "photo":"",
+            "employeeId":"11204002",
+            "employeeFullName":"測試排班請產假",
+            "possieName":"職員",
             "vacationKind":[
-               "婚假(天)"
+               "產假"
             ],
-            "departmentFullName":"顧問處"
-         },
-         {
-            "photo":"hrm\\photo\\EMP_admin.jpg",
-            "employeeId":"0600",
-            "employeeFullName":"鞏O貞",
-            "possieName":"5038",
-            "vacationKind":[
-               "事假"
-            ],
-            "departmentFullName":""
+            "departmentFullName":"勞安部",
+            "employeeFullEName":""
          }
       ]
    }
