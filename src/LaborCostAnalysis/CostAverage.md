@@ -54,9 +54,10 @@ Here is a JSON representation of request.
 ### requestBody FieldName
 | FieldName | Description |
 |:----------|:-------------|
-
-
-
+| subSum | 相差用人總成本 |
+| averageSum | 平均用人總成本 |
+| totalSum | 本期用人總成本 |
+| lastTotalSum | 上期用人總成本 |
 
 ### HTTP Response when Successful
 ```json
