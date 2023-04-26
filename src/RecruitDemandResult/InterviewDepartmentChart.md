@@ -60,7 +60,7 @@ Here is a JSON representation of request.
 | companyId | 公司別 |
 | depNumber | 部門代碼 |
 | yymm | 本期月份 |
-| xaxis | 對照各項人數數值的部們 |
+| xaxis | 對照各項人數數值的部門 |
 | lastPeriod | 上期資料 |
 | period | 本期資料 |
 
