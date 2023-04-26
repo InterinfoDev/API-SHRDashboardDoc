@@ -54,9 +54,12 @@ Here is a JSON representation of request.
 ### requestBody FieldName
 | FieldName | Description |
 |:----------|:-------------|
-
-
-
+| date | 本期時間區間(年月) |
+| lastDate | 上期時間區間(年月) |
+| departmentData | 部門資料 |
+| departmentName | 部們名稱 |
+| averageList | 本期平均時薪 |
+| lastAverageList | 上期平均時薪 |
 
 ### HTTP Response when Successful
 ```json
