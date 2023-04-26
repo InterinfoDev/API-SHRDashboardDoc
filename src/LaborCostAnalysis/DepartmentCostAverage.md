@@ -54,9 +54,10 @@ Here is a JSON representation of request.
 ### requestBody FieldName
 | FieldName | Description |
 |:----------|:-------------|
-
-
-
+| salarySum | 本期薪資總合 |
+| lastSalarySum | 上期薪資總合 |
+| averageSum | 本期/上期平均用人總成本 |
+| departmentName | 部門名稱 |
 
 ### HTTP Response when Successful
 ```json
