@@ -68,22 +68,18 @@ Here is a JSON representation of request.
       "resultCode":"200"
    },
    "responseBody":{
-      "period":[
-         {
-            "shouldPeople":21,
-            "actualPeople":21,
-            "avg":1.0,
-            "difference":0
-         }
-      ],
-      "lastPeriod":[
-         {
-            "shouldPeople":17,
-            "actualPeople":17,
-            "avg":1.0,
-            "difference":0
-         }
-      ]
+      "period":{
+         "shouldPeople":21,
+         "actualPeople":21,
+         "avg":1.0,
+         "difference":0
+      },
+      "lastPeriod":{
+         "shouldPeople":17,
+         "actualPeople":17,
+         "avg":1.0,
+         "difference":0
+      }
    }
 }
 ```
