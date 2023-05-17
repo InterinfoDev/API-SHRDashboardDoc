@@ -1,9 +1,9 @@
-# CompanyOption
-公司別下拉塞選內容
+# DepartmentOption
+單位下拉塞選內容
 
 ### HTTP Request
 ```
-http://59.124.100.151:8090/servlet/apiM/dashboard/V1/interfaces/FilterOption/CompanyOption
+http://59.124.100.151:8090/servlet/apiM/dashboard/V1/interfaces/FilterOption/DepartmentOption
 ```
 
 ### HTTP Request Mehod
@@ -44,10 +44,11 @@ Here is a JSON representation of request.
 ### requestBody FieldName
 | FieldName | Description |
 |:----------|:-------------|
-| code | 公司別 |
-| name | 公司別中文名稱 |
-| ename | 公司別英文名稱 |
-
+| code | 單位代碼 |
+| name | 單位中文名稱 |
+| companyId | 公司別 |
+| companyFullEName | 公司中文名稱 |
+| companyFullName | 公司英文名稱 |
 
 ### HTTP Response when Successful
 ```json
@@ -59,19 +60,30 @@ Here is a JSON representation of request.
    "responseBody":{
       "optionList":[
          {
-            "code":"52806695",
-            "name":"72福委會",
-            "ename":""
+            "departmentList":[
+               {
+                  "code":"1",
+                  "name":"台北總公司"
+               },
+               {
+                  "code":"2",
+                  "name":"董事長室"
+               }
+            ],
+            "companyId":"1",
+            "companyFullEName":"",
+            "companyFullName":"英特內"
          },
          {
-            "code":"770701",
-            "name":"英內內",
-            "ename":"Innene Co Ltd"
-         },
-         {
-            "code":"97090920",
-            "name":"72翰格",
-            "ename":"ECMaker Information Corporation"
+            "departmentList":[
+               {
+                  "code":"278",
+                  "name":"測試公司別"
+               }
+            ],
+            "companyId":"Z",
+            "companyFullEName":"",
+            "companyFullName":"英特內職福會"
          }
       ]
    }
