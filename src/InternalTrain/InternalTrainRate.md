@@ -1,5 +1,5 @@
 # InternalTrainRate
-內訓開課月份統計
+內訓實施比率
 
 ### HTTP Request
 ```
