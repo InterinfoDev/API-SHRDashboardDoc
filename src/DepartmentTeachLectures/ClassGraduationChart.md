@@ -27,8 +27,8 @@ Here is a JSON representation of request.
   "requestBody": {
     "companyId":["1","2"]
     ,"depNumber":[]
-    ,"yymm": "202301"
-    ,"lastYymm":"202305"
+    ,"yymm": "202305"
+    ,"lastYymm":"202301"
     ,"depType": 8
   },
   "uid":"98599308101484732326",
