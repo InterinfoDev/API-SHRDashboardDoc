@@ -53,8 +53,12 @@ Here is a JSON representation of request.
 ### requestBody FieldName
 | FieldName | Description |
 |:----------|:-------------|
-| wayName | 入職管道 |
-| totalPeople | 入職管道總人數 |
+| target | 本期 |
+| previous | 上期 |
+| recruit | 入取人數 |
+| apply | 申請人數 |
+| interview | 面試人數 |
+| wayName | 入職管道名稱 |
 
 ### HTTP Response when Successful
 ```json
