@@ -1,9 +1,9 @@
-# AcceptWaysList
-當月 錄取管道 合計資訊
+# AcceptFlowChart
+管道招聘流程圖表
 
 ### HTTP Request
 ```
-http://59.124.100.151:8090/servlet/apiM/dashboard/V1/interfaces/RecruitWays/AcceptWaysList
+http://59.124.100.151:8090/servlet/apiM/dashboard/V1/interfaces/RecruitWays/AcceptFlowChart
 ```
 
 ### HTTP Request Mehod
@@ -64,28 +64,46 @@ Here is a JSON representation of request.
       "resultCode":"200"
    },
    "responseBody":{
-      "data":[
-         {
-            "wayName":"104人力銀行",
-            "totalPeople":0
-         },
-         {
-            "wayName":"公司網站",
-            "totalPeople":0
-         },
-         {
-            "wayName":"A",
-            "totalPeople":0
-         },
-         {
-            "wayName":"內部同仁推薦",
-            "totalPeople":0
-         },
-         {
-            "wayName":"無填寫管道",
-            "totalPeople":0
-         }
-      ]
+      "target":{
+         "recruit":[
+            "0",
+            "0"
+         ],
+         "apply":[
+            "7",
+            "2"
+         ],
+         "interview":[
+            "0",
+            "0"
+         ],
+         "wayName":[
+            "104人力銀行",
+            "A"
+         ]
+      },
+      "previous":{
+         "recruit":[
+            "0",
+            "0",
+            "0"
+         ],
+         "apply":[
+            "6",
+            "1",
+            "4"
+         ],
+         "interview":[
+            "0",
+            "0",
+            "0"
+         ],
+         "wayName":[
+            "104人力銀行",
+            "公司網站",
+            "A"
+         ]
+      }
    }
 }
 ```
