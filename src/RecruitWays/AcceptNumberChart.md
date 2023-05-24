@@ -1,9 +1,9 @@
-# AcceptWaysChart
-指定月份 錄取管道資訊
+# AcceptNumberChart
+管道錄取人數
 
 ### HTTP Request
 ```
-http://59.124.100.151:8090/servlet/apiM/dashboard/V1/interfaces/RecruitWays/AcceptWaysChart
+http://59.124.100.151:8090/servlet/apiM/dashboard/V1/interfaces/RecruitWays/AcceptNumberChart
 ```
 
 ### HTTP Request Mehod
@@ -64,35 +64,32 @@ Here is a JSON representation of request.
       "resultCode":"200"
    },
    "responseBody":{
-      "series":[
-         {
-            "data":[
-               "59",
-               "1",
-               "28",
-               "6",
-               "1"
-            ],
-            "name":"202110"
-         },
-         {
-            "data":[
-               "68",
-               "0",
-               "24",
-               "13",
-               "3"
-            ],
-            "name":"202111"
-         }
-      ],
-      "xaxis":{
-         "data":[
-            "104人力銀行",
-            "公司網站",
-            "A",
-            "內部同仁推薦",
-            "無填寫管道"
+      "target":{
+         "target":[
+            {
+               "name":"104人力銀行",
+               "value":"0"
+            },
+            {
+               "name":"A",
+               "value":"0"
+            }
+         ]
+      },
+      "previous":{
+         "previous":[
+            {
+               "name":"104人力銀行",
+               "value":"0"
+            },
+            {
+               "name":"公司網站",
+               "value":"0"
+            },
+            {
+               "name":"A",
+               "value":"0"
+            }
          ]
       }
    }
