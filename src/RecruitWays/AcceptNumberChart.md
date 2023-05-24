@@ -1,5 +1,5 @@
 # AcceptNumberChart
-管道錄取人數
+管道錄取人數圖表
 
 ### HTTP Request
 ```
