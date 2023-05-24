@@ -53,10 +53,9 @@ Here is a JSON representation of request.
 ### requestBody FieldName
 | FieldName | Description |
 |:----------|:-------------|
-| planCount | 計畫課程數 |
-| actualCount | 實施課程數 |
-| implementRate | 實施率 |
-| differenceCount | 相差數 |
+| data | 欄位資料 |
+| name | 筆數 |
+| xaxis | 部門資料 |
 
 ### HTTP Response when Successful
 ```json
