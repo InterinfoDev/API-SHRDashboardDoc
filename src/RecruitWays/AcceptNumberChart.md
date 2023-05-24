@@ -53,8 +53,10 @@ Here is a JSON representation of request.
 ### requestBody FieldName
 | FieldName | Description |
 |:----------|:-------------|
-| data | 欄位資料 |
-| name | 欄位名稱 |
+| target | 本期 |
+| previous | 上期 |
+| value | 入取管道數量 |
+| name | 入取管道名稱 |
 
 ### HTTP Response when Successful
 ```json
