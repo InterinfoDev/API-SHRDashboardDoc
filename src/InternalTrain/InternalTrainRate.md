@@ -27,8 +27,8 @@ Here is a JSON representation of request.
     "companyId":["TW"]
     ,"depNumber":[17]
     ,"depType": "8"
-    ,"startYymm": "202301"
-    ,"endYymm": "202308"
+    ,"startYM": "202301"
+    ,"endYM": "202308"
   },
   "uid":"98599308101484732326",
   "right":"51341911904173543336756162544864820"
@@ -47,8 +47,8 @@ Here is a JSON representation of request.
 | companyId | TW | Array(String) | 公司代號 | N | n/a |
 | depNumber | 17 | Array(Integer) | 部門代碼 | N | n/a |
 | depType | 8 | String| 統計階層 | Y | n/a |
-| startYymm | 202301 | Array(Integer) | 起始月份 | Y | YYYYmm |
-| endYymm | 202308 | String | 結束月份 | Y | YYYYmm |
+| startYM | 202301 | Array(Integer) | 起始月份 | Y | YYYYmm |
+| endYM | 202308 | String | 結束月份 | Y | YYYYmm |
 
 ### requestBody FieldName
 | FieldName | Description |
