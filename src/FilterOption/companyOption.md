@@ -1,9 +1,9 @@
-# companyOption
+# CompanyOption
 公司別下拉塞選內容
 
 ### HTTP Request
 ```
-http://59.124.100.151:8090/servlet/apiM/dashboard/V1/interfaces/FilterOption/companyOption
+http://59.124.100.151:8090/servlet/apiM/dashboard/V1/interfaces/FilterOption/CompanyOption
 ```
 
 ### HTTP Request Mehod
@@ -25,6 +25,7 @@ Here is a JSON representation of request.
   "requestHeader": {
   },
   "requestBody": {
+    "company":[]
   },
   "uid":"98599308101484732326",
   "right":"51341911904173543336756162544864820"
