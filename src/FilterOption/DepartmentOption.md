@@ -25,6 +25,7 @@ Here is a JSON representation of request.
   "requestHeader": {
   },
   "requestBody": {
+    "companyId":[]
   },
   "uid":"98599308101484732326",
   "right":"51341911904173543336756162544864820"
@@ -40,6 +41,7 @@ Here is a JSON representation of request.
 ### requestBody Properties
 | Key | Value | Type | Description | Required | Format |
 |:----------|:-------------|:-----|:------------|:------------|:------------|
+| companyId |  | Array(String) | 公司代號 | N | n/a |
 
 ### requestBody FieldName
 | FieldName | Description |
