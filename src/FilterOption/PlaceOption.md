@@ -44,9 +44,9 @@ Here is a JSON representation of request.
 ### requestBody FieldName
 | FieldName | Description |
 |:----------|:-------------|
-| code | 地點代號 |
-| name | 地點代號中文名稱 |
-| ename | 地點代號英文名稱 |
+| placeCode | 地點代號 |
+| placeFullName | 地點代號中文名稱 |
+| placeFullEname | 地點代號英文名稱 |
 
 
 ### HTTP Response when Successful
@@ -59,14 +59,14 @@ Here is a JSON representation of request.
    "responseBody":{
       "optionList":[
          {
-            "code":"23",
-            "name":"昆山",
-            "ename":""
+            "placeCode":"23",
+            "placeFullName":"昆山",
+            "placeFullEname":""
          },
          {
-            "code":"28",
-            "name":"香港",
-            "ename":""
+            "placeCode":"28",
+            "placeFullName":"香港",
+            "placeFullEname":""
          }
       ]
    }
