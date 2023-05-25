@@ -60,30 +60,14 @@ Here is a JSON representation of request.
    "responseBody":{
       "optionList":[
          {
-            "departmentList":[
-               {
-                  "code":"1",
-                  "name":"台北總公司"
-               },
-               {
-                  "code":"2",
-                  "name":"董事長室"
-               }
-            ],
-            "companyId":"1",
-            "companyFullEName":"",
-            "companyFullName":"英特內"
+            "companyId":"52806695",
+            "companyFullName":"72福委會",
+            "companyFullEname":""
          },
          {
-            "departmentList":[
-               {
-                  "code":"278",
-                  "name":"測試公司別"
-               }
-            ],
-            "companyId":"Z",
-            "companyFullEName":"",
-            "companyFullName":"英特內職福會"
+            "companyId":"770701",
+            "companyFullName":"英內內",
+            "companyFullEname":"Innene Co Ltd"
          }
       ]
    }
