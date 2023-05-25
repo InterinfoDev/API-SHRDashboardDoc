@@ -45,8 +45,8 @@ Here is a JSON representation of request.
 ### requestBody FieldName
 | FieldName | Description |
 |:----------|:-------------|
-| code | 考核項目代號 |
-| name | 考核項目名稱 |
+| assessCode | 考核項目代號 |
+| assessFullName | 考核項目名稱 |
 
 ### HTTP Response when Successful
 ```json
@@ -58,20 +58,20 @@ Here is a JSON representation of request.
    "responseBody":{
       "optionList":[
          {
-            "code":"A",
-            "name":"2022季考核Q1"
+            "assessCode":"A",
+            "assessFullName":"2022季考核Q1"
          },
          {
-            "code":"B",
-            "name":"2022季考核Q2"
+            "assessCode":"B",
+            "assessFullName":"2022季考核Q2"
          },
          {
-            "code":"C",
-            "name":"2022季考核Q3"
+            "assessCode":"C",
+            "assessFullName":"2022季考核Q3"
          },
          {
-            "code":"D",
-            "name":"2022季考核Q4"
+            "assessCode":"D",
+            "assessFullName":"2022季考核Q4"
          }
       ]
    }
