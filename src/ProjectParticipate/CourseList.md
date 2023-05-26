@@ -65,6 +65,7 @@ Here is a JSON representation of request.
 | unFinished | 未結業名單 |
 | lessonName | 課程名單 |
 | empFullName | 員工姓名 |
+| empFulEname | 員工英文姓名 |
 | employeeId | 員工編號 |
 | depFullName | 部門名稱 |
 | positionName | 職稱 |
@@ -80,11 +81,11 @@ Here is a JSON representation of request.
         "courseList": [
             {
                 "courseType": "internal",
-                "startDate": "2023/01/10",
+                "startDate": "20230110",
                 "bigCourse": "",
                 "finished": [],
                 "hour": 5.0,
-                "endDate": "2023/01/10",
+                "endDate": "20230110",
                 "smallCourse": "",
                 "lessonName": "",
                 "unFinished": [
@@ -92,25 +93,29 @@ Here is a JSON representation of request.
                         "empFullName": "",
                         "employeeId": "10001068",
                         "depFullName": "",
-                        "positionName": ""
+                        "positionName": "",
+                        "empFullEname": ""
                     },
                     {
                         "empFullName": "王O足",
                         "employeeId": "10009002",
                         "depFullName": "總務部",
-                        "positionName": "專員"
+                        "positionName": "專員",
+                        "empFullEname": ""
                     },
                     {
                         "empFullName": "蔡O隆",
                         "employeeId": "10108001",
                         "depFullName": "資訊部",
-                        "positionName": "經理"
+                        "positionName": "經理",
+                        "empFullEname": ""
                     },
                     {
                         "empFullName": "王O靜",
                         "employeeId": "10210038",
                         "depFullName": "生產組",
-                        "positionName": ""
+                        "positionName": "",
+                        "empFullEname": ""
                     }
                 ],
                 "depFullName": "人力資源部"
