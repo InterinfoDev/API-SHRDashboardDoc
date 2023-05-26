@@ -53,9 +53,17 @@ Here is a JSON representation of request.
 ### requestBody FieldName
 | FieldName | Description |
 |:----------|:-------------|
-| departmentFullName | 部門名稱 |
-| departmentTotalSalary | 部門用人成本 |
+| DepFullName | 部門名稱 |
+| DepTotalSalary | 部門用人成本 |
 | departmentAverageDifferent | 部門平均薪資差異 |
+| borrow | 借工列表 |
+| support | 支援列表 |
+| hour | 支援列表 |
+| employeeFullName | 員工名稱 |
+| possieName | 職務 |
+| employeeId | 員工編耗 |
+| depFullName | 部門名稱 |
+| photo | 照片 |
 
 ### HTTP Response when Successful
 ```json
@@ -65,14 +73,51 @@ Here is a JSON representation of request.
       "resultCode":"200"
    },
    "responseBody":{
-      "departmentFullName":[
-         "消失的部門"
-      ],
-      "departmentTotalSalary":[
-         "79882"
-      ],
-      "departmentAverageDifferent":[
-         "0"
+      "dataList":[
+         {
+            "DepTotalSalary":"31098",
+            "DepFullName":"支援部",
+            "borrow":[
+               {
+                  "hour":"3.00",
+                  "employeeFullName":"",
+                  "possieName":"",
+                  "employeeId":"A2022001",
+                  "depFullName":"",
+                  "photo":""
+               },
+               {
+                  "hour":"8.00",
+                  "employeeFullName":"",
+                  "possieName":"",
+                  "employeeId":"A2022001",
+                  "depFullName":"",
+                  "photo":""
+               }
+            ],
+            "DepAverageDifferent":"0",
+            "support":[
+               
+            ]
+         },
+         {
+            "DepTotalSalary":"29463",
+            "DepFullName":"企劃部",
+            "borrow":[
+               
+            ],
+            "DepAverageDifferent":"0",
+            "support":[
+               {
+                  "hour":"3.00",
+                  "employeeFullName":"",
+                  "possieName":"",
+                  "employeeId":"A2022001",
+                  "depFullName":"",
+                  "photo":""
+               }
+            ]
+         }
       ]
    }
 }
