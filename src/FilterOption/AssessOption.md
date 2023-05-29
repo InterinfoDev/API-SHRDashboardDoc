@@ -47,6 +47,7 @@ Here is a JSON representation of request.
 |:----------|:-------------|
 | assessCode | 考核項目代號 |
 | assessFullName | 考核項目名稱 |
+| assessKey |  考核項目為一值 |
 
 ### HTTP Response when Successful
 ```json
@@ -59,19 +60,18 @@ Here is a JSON representation of request.
       "optionList":[
          {
             "assessCode":"A",
-            "assessFullName":"2022季考核Q1"
+            "assessFullName":"2022季考核Q1",
+            "assessKey":"LAF@A"
          },
          {
             "assessCode":"B",
-            "assessFullName":"2022季考核Q2"
+            "assessFullName":"2022季考核Q2",
+            "assessKey":"LAF@B"
          },
          {
             "assessCode":"C",
-            "assessFullName":"2022季考核Q3"
-         },
-         {
-            "assessCode":"D",
-            "assessFullName":"2022季考核Q4"
+            "assessFullName":"2022季考核Q3",
+            "assessKey":"LAF@C"
          }
       ]
    }
