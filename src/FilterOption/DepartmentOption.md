@@ -25,7 +25,8 @@ Here is a JSON representation of request.
   "requestHeader": {
   },
   "requestBody": {
-    "companyId":[]
+     "companyId":["TW"]
+      ,"depType": 10
   },
   "uid":"98599308101484732326",
   "right":"51341911904173543336756162544864820"
@@ -41,16 +42,20 @@ Here is a JSON representation of request.
 ### requestBody Properties
 | Key | Value | Type | Description | Required | Format |
 |:----------|:-------------|:-----|:------------|:------------|:------------|
-| companyId |  | Array(String) | 公司代號 | N | n/a |
+| companyId | TW | Array(String) | 公司代號 | N | n/a |
+| depType | 10 | Integer | 統計階層 | Y | n/a |
 
 ### requestBody FieldName
 | FieldName | Description |
 |:----------|:-------------|
-| depNumber | 單位代碼 |
-| depFullName | 單位中文名稱 |
 | companyId | 公司別 |
 | companyFullEName | 公司中文名稱 |
 | companyFullName | 公司英文名稱 |
+| depNumber | 單位暗碼 |
+| depCode | 單位明碼 |
+| depFullName | 單位中文名稱 |
+| depType | 單位階級 |
+| nextDepartmentList | 下層單位列表 |
 
 ### HTTP Response when Successful
 ```json
@@ -63,34 +68,70 @@ Here is a JSON representation of request.
       "optionList":[
          {
             "departmentList":[
-               
-            ],
-            "companyId":"52806695",
-            "companyFullEName":"",
-            "companyFullName":"72福委會"
-         },
-         {
-            "departmentList":[
                {
-                  "depNumber":"295",
-                  "depFullName":"翰格雲端"
+                  "depNumber":"2",
+                  "depFullName":"總經理",
+                  "depType":6,
+                  "depCode":"10100",
+                  "nextDepartmentList":[
+                     {
+                        "depNumber":"5",
+                        "depFullName":"研發處",
+                        "depType":9,
+                        "depCode":"11000",
+                        "nextDepartmentList":[
+                           {
+                              "depNumber":"6",
+                              "depFullName":"行企課",
+                              "depType":10,
+                              "depCode":"11010",
+                              "nextDepartmentList":[
+                                 
+                              ]
+                           },
+                           {
+                              "depNumber":"257",
+                              "depFullName":"研發組",
+                              "depType":10,
+                              "depCode":"11020",
+                              "nextDepartmentList":[
+                                 
+                              ]
+                           }
+                        ]
+                     }
+                  ]
                },
                {
-                  "depNumber":"369",
-                  "depFullName":"總理經室"
-               },
-               {
-                  "depNumber":"533",
-                  "depFullName":"測試部"
-               },
-               {
-                  "depNumber":"10038",
-                  "depFullName":"技術處"
+                  "depNumber":"82",
+                  "depFullName":"英特內(中和)",
+                  "depType":4,
+                  "depCode":"10000",
+                  "nextDepartmentList":[
+                     {
+                        "depNumber":"16",
+                        "depFullName":"稽核室",
+                        "depType":9,
+                        "depCode":"12100",
+                        "nextDepartmentList":[
+                           
+                        ]
+                     },
+                     {
+                        "depNumber":"324",
+                        "depFullName":"醫療課",
+                        "depType":4,
+                        "depCode":"324",
+                        "nextDepartmentList":[
+                           
+                        ]
+                     }
+                  ]
                }
             ],
-            "companyId":"97090920",
-            "companyFullEName":"ECMaker Information Corporation",
-            "companyFullName":"72翰格"
+            "companyId":"TW",
+            "companyFullEName":"Internet Information Co., Ltd.",
+            "companyFullName":"英特內(中和)"
          }
       ]
    }
@@ -123,3 +164,4 @@ Here is a JSON representation of request.
     }
 }
 ```
+
