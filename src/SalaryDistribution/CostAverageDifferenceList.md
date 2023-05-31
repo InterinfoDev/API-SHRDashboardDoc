@@ -83,12 +83,14 @@ Here is a JSON representation of request.
                   "employeeFullName":"",
                   "possieName":"",
                   "employeeId":"A2022001",
+                  "employeeFullEName": "",
                   "depFullName":"",
                   "photo":""
                },
                {
                   "hour":"8.00",
                   "employeeFullName":"",
+                  "employeeFullEName": "",
                   "possieName":"",
                   "employeeId":"A2022001",
                   "depFullName":"",
@@ -114,6 +116,7 @@ Here is a JSON representation of request.
                   "possieName":"",
                   "employeeId":"A2022001",
                   "depFullName":"",
+                  "employeeFullEName": "",
                   "photo":""
                }
             ]
