@@ -55,7 +55,8 @@ Here is a JSON representation of request.
 | depCode | 單位明碼 |
 | depFullName | 單位中文名稱 |
 | depType | 單位階級 |
-| nextDepartmentList | 下層單位列表 |
+| parentDepNumber | 上層單位 |
+| parentFullName | 上層單位名稱 |
 
 ### HTTP Response when Successful
 ```json
@@ -69,69 +70,59 @@ Here is a JSON representation of request.
          {
             "departmentList":[
                {
-                  "depNumber":"2",
-                  "depFullName":"總經理",
-                  "depType":6,
-                  "depCode":"10100",
-                  "nextDepartmentList":[
-                     {
-                        "depNumber":"5",
-                        "depFullName":"研發處",
-                        "depType":9,
-                        "depCode":"11000",
-                        "nextDepartmentList":[
-                           {
-                              "depNumber":"6",
-                              "depFullName":"行企課",
-                              "depType":10,
-                              "depCode":"11010",
-                              "nextDepartmentList":[
-                                 
-                              ]
-                           },
-                           {
-                              "depNumber":"257",
-                              "depFullName":"研發組",
-                              "depType":10,
-                              "depCode":"11020",
-                              "nextDepartmentList":[
-                                 
-                              ]
-                           }
-                        ]
-                     }
-                  ]
+                  "depNu{
+   "responseHeader":{
+      "resultMessage":"執行成功",
+      "resultCode":"200"
+   },
+   "responseBody":{
+      "optionList":[
+         {
+            "departmentList":[
+               {
+                  "depNumber":"257",
+                  "depFullName":"消失的部門",
+                  "depType":10,
+                  "depCode":"10039",
+                  "parentDepNumber":"1",
+                  "parentFullName":"英特內股份有限公司"
                },
                {
-                  "depNumber":"82",
-                  "depFullName":"英特內(中和)",
-                  "depType":4,
-                  "depCode":"10000",
-                  "nextDepartmentList":[
-                     {
-                        "depNumber":"16",
-                        "depFullName":"稽核室",
-                        "depType":9,
-                        "depCode":"12100",
-                        "nextDepartmentList":[
-                           
-                        ]
-                     },
-                     {
-                        "depNumber":"324",
-                        "depFullName":"醫療課",
-                        "depType":4,
-                        "depCode":"324",
-                        "nextDepartmentList":[
-                           
-                        ]
-                     }
-                  ]
+                  "depNumber":"493",
+                  "depFullName":"部門長",
+                  "depType":10,
+                  "depCode":"CCC",
+                  "parentDepNumber":"492",
+                  "parentFullName":"副總"
+               },
+               {
+                  "depNumber":"495",
+                  "depFullName":"企劃部",
+                  "depType":10,
+                  "depCode":"495",
+                  "parentDepNumber":"1",
+                  "parentFullName":"英特內股份有限公司"
+               },
+               {
+                  "depNumber":"529",
+                  "depFullName":"支援部",
+                  "depType":9,
+                  "depCode":"529",
+                  "parentDepNumber":"528",
+                  "parentFullName":"顧問處"
+               },
+               {
+                  "depNumber":"534",
+                  "depFullName":"測試部",
+                  "depType":10,
+                  "depCode":"534",
+                  "parentDepNumber":"528",
+                  "parentFullName":"顧問處"
                }
             ],
             "companyId":"TW",
-            "companyFullEName":"Internet Information Co., Ltd.",
-            "companyFullName":"英特內(中和)"
+            "companyFullEName":"",
+            "companyFullName":"72英特內(中和)"
          }
       ]
    }
