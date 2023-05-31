@@ -70,16 +70,6 @@ Here is a JSON representation of request.
          {
             "departmentList":[
                {
-                  "depNu{
-   "responseHeader":{
-      "resultMessage":"執行成功",
-      "resultCode":"200"
-   },
-   "responseBody":{
-      "optionList":[
-         {
-            "departmentList":[
-               {
                   "depNumber":"257",
                   "depFullName":"消失的部門",
                   "depType":10,
