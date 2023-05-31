@@ -69,6 +69,7 @@ Here is a JSON representation of request.
 | employeeId | 員工編號 |
 | depFullName | 部門名稱 |
 | positionName | 職稱 |
+| photo | 員工圖片 |
 
 ### HTTP Response when Successful
 ```json
@@ -94,6 +95,7 @@ Here is a JSON representation of request.
                         "employeeId": "10001068",
                         "depFullName": "",
                         "positionName": "",
+                        "photo": "",
                         "empFullEname": ""
                     },
                     {
@@ -101,6 +103,7 @@ Here is a JSON representation of request.
                         "employeeId": "10009002",
                         "depFullName": "總務部",
                         "positionName": "專員",
+                        "photo": "",
                         "empFullEname": ""
                     },
                     {
@@ -108,6 +111,7 @@ Here is a JSON representation of request.
                         "employeeId": "10108001",
                         "depFullName": "資訊部",
                         "positionName": "經理",
+                        "photo": "",
                         "empFullEname": ""
                     },
                     {
@@ -115,6 +119,7 @@ Here is a JSON representation of request.
                         "employeeId": "10210038",
                         "depFullName": "生產組",
                         "positionName": "",
+                        "photo": "",
                         "empFullEname": ""
                     }
                 ],
