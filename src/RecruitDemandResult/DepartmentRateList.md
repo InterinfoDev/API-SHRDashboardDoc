@@ -28,6 +28,7 @@ Here is a JSON representation of request.
     ,"depNumber":[]
     ,"depType":3
     ,"yymm": "202301"
+    ,"lastYymm": "202206"
   },
   "uid":"98599308101484732326",
   "right":"51341911904173543336756162544864820"
@@ -47,7 +48,7 @@ Here is a JSON representation of request.
 | depNumber |  | Array(Integer) | 部門代碼 | N | n/a |
 | depType | 3 | Integer | 統計階層 | Y | n/a |
 | yymm | 202212 | String | 本期月份 | Y | YYYYmm |
-
+| lastYymm | 202206 | String | 上期月份 | Y | YYYYmm |
 
 ### requestBody FieldName
 | FieldName | Description |
