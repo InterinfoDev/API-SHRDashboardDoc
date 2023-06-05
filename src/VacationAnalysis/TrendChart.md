@@ -26,7 +26,8 @@ Here is a JSON representation of request.
   },
   "requestBody": {
     "companyId":[]
-    ,"depNumber":[],
+    ,"depNumber":[]
+    ,"workPlace":[]
     ,"depType": 3
   },
   "uid":"98599308101484732326",
@@ -45,6 +46,7 @@ Here is a JSON representation of request.
 |:----------|:-------------|:-----|:------------|:------------|:------------|
 | companyId | 1 | Array(String) | 公司代號 | N | n/a |
 | depNumber |  | Array(Integer) | 部門代碼 | N | n/a |
+| workPlace | TW | Array(String) | 工作地點 | N | n/a |
 | depType | 3 | Integer | 統計階層 | Y | n/a |
 
 ### requestBody FieldName
