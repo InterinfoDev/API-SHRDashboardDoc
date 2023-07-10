@@ -59,6 +59,7 @@ Here is a JSON representation of request.
 | lastPeriod | 上期日期 |
 | overTimeName | 加班種類名稱 |
 | people | 人數 |
+| depFullName | 部門名稱 |
 
 ### HTTP Response when Successful
 ```json
@@ -71,21 +72,25 @@ Here is a JSON representation of request.
       "period":[
          {
             "overTimeName":"一般加班",
-            "people":5
+            "people":5,
+            "depFullName":管理處 
          },
          {
             "overTimeName":"一般加班",
-            "people":2
+            "people":2,
+            "depFullName":CPO
          }
       ],
       "lastPeriod":[
          {
             "overTimeName":"一般加班",
-            "people":5
+            "people":5,
+            "depFullName":CKO
          },
          {
             "overTimeName":"一般加班",
-            "people":2
+            "people":2,
+            "depFullName":CTO
          }
       ]
    }
