@@ -71,12 +71,12 @@ Here is a JSON representation of request.
     "series": [
       {
         "data": [
-          "2",
-          "0",
-          "3",
-          "5",
-          "0",
-          "0"
+          2,
+          0,
+          3,
+          5,
+          0,
+          0
         ]
       }
     ],
@@ -97,10 +97,10 @@ Here is a JSON representation of request.
       "平均人數"
     ],
     "labelValue": [
-      "176",
-      "176",
-      "0",
-      "176.0"
+      176,
+      176,
+      0,
+      176.0
     ]
   }
 }
