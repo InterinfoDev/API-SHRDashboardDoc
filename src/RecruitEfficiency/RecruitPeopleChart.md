@@ -67,19 +67,19 @@ Here is a JSON representation of request.
         "series": [
             {
                 "data": [
-                    "0",
-                    "0",
-                    "0",
-                    "0"
+                    0,
+                    0,
+                    0,
+                    0
                 ],
                 "name": "202112"
             },
             {
                 "data": [
-                    "36",
-                    "0",
-                    "1",
-                    "1"
+                    36,
+                    0,
+                    1,
+                    1
                 ],
                 "name": "202301"
             }
