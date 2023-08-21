@@ -74,41 +74,41 @@ Here is a JSON representation of request.
          "targetPipeline":[
             {
                "name":"104人力銀行",
-               "people":"59"
+               "people":59
             },
             {
                "name":"公司網站",
-               "people":"1"
+               "people":1
             },
             {
                "name":"A",
-               "people":"28"
+               "people":28
             },
             {
                "name":"內部同仁推薦",
-               "people":"6"
+               "people":6
             },
             {
                "name":"無填寫管道",
-               "people":"1"
+               "people":1
             }
          ],
-         "averageDay":"0",
-         "total":"95"
+         "averageDay":0,
+         "total":95
       },
       "previous":{
          "targetPipeline":[
             {
                "name":"104人力銀行",
-               "people":"59"
+               "people":59
             },
             {
                "name":"公司網站",
-               "people":"1"
+               "people":1
             },
             {
                "name":"A",
-               "people":"28"
+               "people":28
             },
             {
                "name":"內部同仁推薦",
@@ -116,11 +116,11 @@ Here is a JSON representation of request.
             },
             {
                "name":"無填寫管道",
-               "people":"1"
+               "people":1
             }
          ],
-         "averageDay":"0",
-         "total":"108"
+         "averageDay":0,
+         "total":108
       }
    }
 }
