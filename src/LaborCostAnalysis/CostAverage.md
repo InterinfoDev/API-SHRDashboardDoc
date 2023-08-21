@@ -67,10 +67,10 @@ Here is a JSON representation of request.
       "resultCode":"200"
    },
    "responseBody":{
-      "subSum":"0",
-      "averageSum":"2000",
-      "totalSum":"2000",
-      "lastTotalSum":"2000"
+      "subSum":0,
+      "averageSum":2000,
+      "totalSum":2000,
+      "lastTotalSum":2000
    }
 }
 ```
