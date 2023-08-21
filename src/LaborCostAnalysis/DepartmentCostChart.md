@@ -69,24 +69,24 @@ Here is a JSON representation of request.
    },
    "responseBody":{
       "depWorkHours":[
-         "0",
-         "0",
-         "0"
+         0,
+         0,
+         0
       ],
       "salarySum":[
-         "0",
-         "0",
-         "0"
+         0,
+         0,
+         0
       ],
       "lastDepWorkHours":[
-         "0",
-         "0",
-         "0"
+         0,
+         0,
+         0
       ],
       "lastSalarySum":[
-         "0",
-         "0",
-         "0"
+         0,
+         0,
+         0
       ],
       "department":[
          "台北總公司",
