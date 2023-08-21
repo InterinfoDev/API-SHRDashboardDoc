@@ -70,11 +70,11 @@ Here is a JSON representation of request.
          "target":[
             {
                "name":"104人力銀行",
-               "value":"0"
+               "value":0
             },
             {
                "name":"A",
-               "value":"0"
+               "value":0
             }
          ]
       },
@@ -82,15 +82,15 @@ Here is a JSON representation of request.
          "previous":[
             {
                "name":"104人力銀行",
-               "value":"0"
+               "value":0
             },
             {
                "name":"公司網站",
-               "value":"0"
+               "value":0
             },
             {
                "name":"A",
-               "value":"0"
+               "value":0
             }
          ]
       }
