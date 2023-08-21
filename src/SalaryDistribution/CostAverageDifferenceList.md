@@ -75,11 +75,11 @@ Here is a JSON representation of request.
    "responseBody":{
       "dataList":[
          {
-            "DepTotalSalary":"31098",
+            "DepTotalSalary":31098,
             "DepFullName":"支援部",
             "borrow":[
                {
-                  "hour":"3.00",
+                  "hour":3.00,
                   "employeeFullName":"",
                   "possieName":"",
                   "employeeId":"A2022001",
@@ -88,7 +88,7 @@ Here is a JSON representation of request.
                   "photo":""
                },
                {
-                  "hour":"8.00",
+                  "hour":8.00,
                   "employeeFullName":"",
                   "employeeFullEName": "",
                   "possieName":"",
@@ -97,21 +97,21 @@ Here is a JSON representation of request.
                   "photo":""
                }
             ],
-            "DepAverageDifferent":"0",
+            "DepAverageDifferent":0,
             "support":[
                
             ]
          },
          {
-            "DepTotalSalary":"29463",
+            "DepTotalSalary":29463,
             "DepFullName":"企劃部",
             "borrow":[
                
             ],
-            "DepAverageDifferent":"0",
+            "DepAverageDifferent":0,
             "support":[
                {
-                  "hour":"3.00",
+                  "hour":3.00,
                   "employeeFullName":"",
                   "possieName":"",
                   "employeeId":"A2022001",
