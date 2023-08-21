@@ -69,32 +69,32 @@ Here is a JSON representation of request.
          {
             "title":"留任率",
             "key":"stayRate",
-            "percent":"98.30"
+            "percent":98.30
          },
          {
             "title":"進任率",
             "key":"inRate",
-            "percent":"1.70"
+            "percent":1.70
          },
          {
             "title":"離職率",
             "key":"quiteRate",
-            "percent":"0.00"
+            "percent":0.00
          },
          {
             "title":"流失率",
             "key":"lostRate",
-            "percent":"0.00"
+            "percent":0.00
          },
          {
             "title":"留停率",
             "key":"stopRate",
-            "percent":"0.00"
+            "percent":0.00
          },
          {
             "title":"同期流失率",
             "key":"sameLostRate",
-            "percent":"-17300.00"
+            "percent":-17300.00
          }
       ],
       "title":"整體異動數據"
