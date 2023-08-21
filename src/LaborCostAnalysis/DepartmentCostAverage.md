@@ -69,75 +69,75 @@ Here is a JSON representation of request.
    "responseBody":{
       "departmentData":[
          {
-            "salarySum":"0",
-            "lastSalarySum":"0",
-            "averageSum":"0",
+            "salarySum":0,
+            "lastSalarySum":0,
+            "averageSum":0,
             "departmentName":"台北總公司"
          },
          {
-            "salarySum":"0",
-            "lastSalarySum":"0",
-            "averageSum":"0",
+            "salarySum":0,
+            "lastSalarySum":0,
+            "averageSum":0,
             "departmentName":"董事長室"
          },
          {
-            "salarySum":"0",
-            "lastSalarySum":"0",
-            "averageSum":"0",
+            "salarySum":0,
+            "lastSalarySum":0,
+            "averageSum":0,
             "departmentName":"開朗店內場"
          },
          {
-            "salarySum":"0",
-            "lastSalarySum":"0",
-            "averageSum":"0",
+            "salarySum":0,
+            "lastSalarySum":0,
+            "averageSum":0,
             "departmentName":"歡樂店內場"
          },
          {
-            "salarySum":"0",
-            "lastSalarySum":"0",
-            "averageSum":"0",
+            "salarySum":0,
+            "lastSalarySum":0,
+            "averageSum":0,
             "departmentName":"客氣店內場"
          },
          {
-            "salarySum":"0",
-            "lastSalarySum":"0",
-            "averageSum":"0",
+            "salarySum":0,
+            "lastSalarySum":0,
+            "averageSum":0,
             "departmentName":"自信復興牧場內場"
          },
          {
-            "salarySum":"0",
-            "lastSalarySum":"0",
-            "averageSum":"0",
+            "salarySum":0,
+            "lastSalarySum":0,
+            "averageSum":0,
             "departmentName":"自信98牧場內場"
          },
          {
-            "salarySum":"0",
-            "lastSalarySum":"0",
-            "averageSum":"0",
+            "salarySum":0,
+            "lastSalarySum":0,
+            "averageSum":0,
             "departmentName":"自信Neo19牧場內場"
          },
          {
-            "salarySum":"0",
-            "lastSalarySum":"0",
-            "averageSum":"0",
+            "salarySum":0,
+            "lastSalarySum":0,
+            "averageSum":0,
             "departmentName":"自信中山牧場內場"
          },
          {
-            "salarySum":"0",
-            "lastSalarySum":"0",
-            "averageSum":"0",
+            "salarySum":0,
+            "lastSalarySum":0,
+            "averageSum":0,
             "departmentName":"羨慕內場"
          },
          {
-            "salarySum":"0",
-            "lastSalarySum":"0",
-            "averageSum":"0",
+            "salarySum":0,
+            "lastSalarySum":0,
+            "averageSum":0,
             "departmentName":"安祥內場"
          },
          {
-            "salarySum":"0",
-            "lastSalarySum":"0",
-            "averageSum":"0",
+            "salarySum":0,
+            "lastSalarySum":0,
+            "averageSum":0,
             "departmentName":"隨和內場"
          }
       ]
