@@ -66,10 +66,10 @@ Here is a JSON representation of request.
       "resultCode":"200"
    },
    "responseBody":{
-      "attendNum":"1130",
-      "realAttendNum":"1126",
-      "vacationNum":"4",
-      "vacationRate":"0.35"
+      "attendNum":1130,
+      "realAttendNum":1126,
+      "vacationNum":4,
+      "vacationRate":0.35
    }
 }
 ```
