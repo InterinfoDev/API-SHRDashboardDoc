@@ -70,16 +70,16 @@ Here is a JSON representation of request.
    "responseBody":{
       "target":{
          "recruit":[
-            "0",
-            "0"
+            0,
+            0
          ],
          "apply":[
-            "7",
-            "2"
+            7,
+            2
          ],
          "interview":[
-            "0",
-            "0"
+            0,
+            0
          ],
          "wayName":[
             "104人力銀行",
@@ -88,19 +88,19 @@ Here is a JSON representation of request.
       },
       "previous":{
          "recruit":[
-            "0",
-            "0",
-            "0"
+            0,
+            0,
+            0
          ],
          "apply":[
-            "6",
-            "1",
-            "4"
+            6,
+            1,
+            4
          ],
          "interview":[
-            "0",
-            "0",
-            "0"
+            0,
+            0,
+            0
          ],
          "wayName":[
             "104人力銀行",
