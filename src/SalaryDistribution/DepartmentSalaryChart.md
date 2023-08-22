@@ -68,7 +68,7 @@ Here is a JSON representation of request.
          "消失的部門"
       ],
       "departmentTotalSalary":[
-         "79882"
+         79882
       ]
    }
 }
