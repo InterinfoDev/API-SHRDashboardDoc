@@ -66,7 +66,7 @@ Here is a JSON representation of request.
    },
    "responseBody":{
       "series":[
-         "4"
+         4
       ],
       "xaxis":{
          "data":[
