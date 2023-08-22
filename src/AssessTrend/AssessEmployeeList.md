@@ -78,7 +78,7 @@ Here is a JSON representation of request.
             "employeeId":"10009002",
             "inDate":"20110901",
             "experience":10.8,
-            "growRate":"6000",
+            "growRate":6000,
             "companyName":"總務部"
          },
          {
@@ -87,116 +87,8 @@ Here is a JSON representation of request.
             "employeeId":"10808055",
             "inDate":"20190811",
             "experience":2.8,
-            "growRate":"6000",
+            "growRate":6000,
             "companyName":"儲運組"
-         },
-         {
-            "photo":"https://applv1.ecmaker-cloud.com/servlet/jform?em_step=2&file=hrm8w.pkg&enc=93d23f3a4b3f3a090f110f0f",
-            "employeeName":"蔡O宇",
-            "employeeId":"10808081",
-            "inDate":"20190826",
-            "experience":2.8,
-            "growRate":"6000",
-            "companyName":"採購部"
-         },
-         {
-            "photo":"https://applv1.ecmaker-cloud.com/servlet/jform?em_step=2&file=hrm8w.pkg&enc=93d23f3a4b3f3a090f110f0f",
-            "employeeName":"王O秋",
-            "employeeId":"11105073",
-            "inDate":"20220516",
-            "experience":0.1,
-            "growRate":"6000",
-            "companyName":"人力資源部"
-         },
-         {
-            "photo":"https://applv1.ecmaker-cloud.com/servlet/jform?em_step=2&file=hrm8w.pkg&enc=93d23f3a4b3f3a090f110f0f",
-            "employeeName":"王O蓉",
-            "employeeId":"11105074",
-            "inDate":"20220516",
-            "experience":0.1,
-            "growRate":"6000",
-            "companyName":"總務部"
-         },
-         {
-            "photo":"https://applv1.ecmaker-cloud.com/servlet/jform?em_step=2&file=hrm8w.pkg&enc=93d23f3a4b3f3a090f110f0f",
-            "employeeName":"王O新",
-            "employeeId":"11105112",
-            "inDate":"20220501",
-            "experience":0.1,
-            "growRate":"6000",
-            "companyName":"秘書室"
-         },
-         {
-            "photo":"https://applv1.ecmaker-cloud.com/servlet/jform?em_step=2&file=hrm8w.pkg&enc=93d23f3a4b3f3a090f110f0f",
-            "employeeName":"王O幹",
-            "employeeId":"8703007",
-            "inDate":"19980315",
-            "experience":24.2,
-            "growRate":"6000",
-            "companyName":"生產組"
-         },
-         {
-            "photo":"https://applv1.ecmaker-cloud.com/servlet/jform?em_step=2&file=hrm8w.pkg&enc=93d23f3a4b3f3a090f110f0f",
-            "employeeName":"王O芳",
-            "employeeId":"8712001",
-            "inDate":"19981204",
-            "experience":23.5,
-            "growRate":"6000",
-            "companyName":"總務部"
-         },
-         {
-            "photo":"https://applv1.ecmaker-cloud.com/servlet/jform?em_step=2&file=hrm8w.pkg&enc=93d23f3a4b3f3a090f110f0f",
-            "employeeName":"王O婉",
-            "employeeId":"8806004",
-            "inDate":"19990629",
-            "experience":22.9,
-            "growRate":"6000",
-            "companyName":"儲運組"
-         },
-         {
-            "photo":"https://applv1.ecmaker-cloud.com/servlet/jform?em_step=2&file=hrm8w.pkg&enc=93d23f3a4b3f3a090f110f0f",
-            "employeeName":"王O燕",
-            "employeeId":"9403012",
-            "inDate":"20050309",
-            "experience":17.3,
-            "growRate":"6000",
-            "companyName":"人力資源部"
-         },
-         {
-            "photo":"https://applv1.ecmaker-cloud.com/servlet/jform?em_step=2&file=hrm8w.pkg&enc=93d23f3a4b3f3a090f110f0f",
-            "employeeName":"王O廷",
-            "employeeId":"9707001",
-            "inDate":"20080701",
-            "experience":13.9,
-            "growRate":"6000",
-            "companyName":"儲運組"
-         },
-         {
-            "photo":"https://applv1.ecmaker-cloud.com/servlet/jform?em_step=2&file=hrm8w.pkg&enc=93d23f3a4b3f3a090f110f0f",
-            "employeeName":"蔡O沁",
-            "employeeId":"9708045",
-            "inDate":"20080815",
-            "experience":13.8,
-            "growRate":"6000",
-            "companyName":"財會部"
-         },
-         {
-            "photo":"https://applv1.ecmaker-cloud.com/servlet/jform?em_step=2&file=hrm8w.pkg&enc=93d23f3a4b3f3a090f110f0f",
-            "employeeName":"王O如",
-            "employeeId":"9912073",
-            "inDate":"20101230",
-            "experience":11.4,
-            "growRate":"6000",
-            "companyName":"財會部"
-         },
-         {
-            "photo":"https://applv1.ecmaker-cloud.com/servlet/jform?em_step=2&file=hrm8w.pkg&enc=93d23f3a4b3f3a090f110f0f",
-            "employeeName":"TOS",
-            "employeeId":"TESTL91004",
-            "inDate":"20200501",
-            "experience":2.1,
-            "growRate":"6000",
-            "companyName":"總管理處"
          }
       ],
       "label":[
