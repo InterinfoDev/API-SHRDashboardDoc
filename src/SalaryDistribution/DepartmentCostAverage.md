@@ -65,9 +65,9 @@ Here is a JSON representation of request.
       "resultCode":"200"
    },
    "responseBody":{
-      "departmentCount":"1",
-      "averageCost":"79882",
-      "allCost":"79882"
+      "departmentCount":1,
+      "averageCost":79882,
+      "allCost":79882
    }
 }
 ```
