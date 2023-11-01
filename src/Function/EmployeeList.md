@@ -43,6 +43,7 @@ Here is a JSON representation of request.
 ### requestBody Properties
 | Key | Value | Type | Description | Required | Format |
 |:----------|:-------------|:-----|:------------|:------------|:------------|
+| depNumber | 2 | Integer | 單位暗碼 | Y | n/a |
 
 ### requestBody FieldName
 | FieldName | Description |
