@@ -50,6 +50,7 @@ Here is a JSON representation of request.
 | subDepartmentList | 下一層部門列表 |
 | departmentList | 部門列表 |
 | groupList | 群組列表 |
+| depKey | 單位key值 |
 
 
 ### HTTP Response when Successful
@@ -65,119 +66,20 @@ Here is a JSON representation of request.
             "depNumber":123532,
             "depFullName":"英x內集團",
             "depCode":"01231",
+            "depKey":"1324679",
             "subDepartmentList":[
                {
                   "depNumber":53,
                   "depFullName":"董x會",
                   "depCode":"012302",
+                  "depKey":"1321111",
                   "subDepartmentList":[
                      {
                         "depNumber":132,
                         "depFullName":"英x內軟體公司",
                         "depCode":"001233",
+                        "depKey":"1321111",
                         "subDepartmentList":[
-                           {
-                              "depNumber":15,
-                              "depFullName":"總xx室",
-                              "depCode":"A01230",
-                              "subDepartmentList":[
-                                 {
-                                    "depNumber":51,
-                                    "depFullName":"經xx理",
-                                    "depCode":"5123",
-                                    "subDepartmentList":[
-                                       {
-                                          "depNumber":1235,
-                                          "depFullName":"總xx處",
-                                          "depCode":"A1000",
-                                          "subDepartmentList":[
-                                             {
-                                                "depNumber":141,
-                                                "depFullName":"行x部",
-                                                "depCode":"A11410",
-                                                "subDepartmentList":[
-                                                   
-                                                ]
-                                             }
-                                          ]
-                                       }
-                                    ]
-                                 },
-                                 {
-                                    "depNumber":123141,
-                                    "depFullName":"營xx理COO",
-                                    "depCode":"B01230",
-                                    "subDepartmentList":[
-                                       {
-                                          "depNumber":123432,
-                                          "depFullName":"CTO",
-                                          "depCode":"E03123",
-                                          "subDepartmentList":[
-                                             {
-                                                "depNumber":3123,
-                                                "depFullName":"技x處",
-                                                "depCode":"E10010",
-                                                "subDepartmentList":[
-                                                   {
-                                                      "depNumber":31234,
-                                                      "depFullName":"工x部",
-                                                      "depCode":"E21010",
-                                                      "subDepartmentList":[
-                                                         
-                                                      ]
-                                                   }
-                                                ]
-                                             }
-                                          ]
-                                       }
-                                    ]
-                                 }
-                              ]
-                           }
-                        ]
-                     },
-                     {
-                        "depNumber":21248,
-                        "depFullName":"翰xxx公司",
-                        "depCode":"A1230",
-                        "subDepartmentList":[
-                           {
-                              "depNumber":43,
-                              "depFullName":"總xx室",
-                              "depCode":"A0100",
-                              "subDepartmentList":[
-                                 {
-                                    "depNumber":321,
-                                    "depFullName":"經x管x理",
-                                    "depCode":"A0200",
-                                    "subDepartmentList":[
-                                       {
-                                          "depNumber":123,
-                                          "depFullName":"總xx處",
-                                          "depCode":"A1000",
-                                          "subDepartmentList":[
-                                             {
-                                                "depNumber":113,
-                                                "depFullName":"行x部",
-                                                "depCode":"A1100",
-                                                "subDepartmentList":[
-                                                   
-                                                ]
-                                             },
-                                             {
-                                                "depNumber":111,
-                                                "depFullName":"會x部",
-                                                "depCode":"A1120",
-                                                "subDepartmentList":[
-                                                   
-                                                ]
-                                             }
-                                          ]
-                                       }
-                                    ]
-                                 }
-                              ]
-                           }
                         ]
                      }
                   ]
@@ -189,12 +91,14 @@ Here is a JSON representation of request.
          {
             "depNumber":1002002,
             "depFullName":"sys.異動單撤單群組",
-            "depCode":"1002002"
+            "depCode":"1002002",
+            "depKey":"1321111"
          },
          {
             "depNumber":1001003,
             "depFullName":"sys.HR主管",
-            "depCode":"1001003"
+            "depCode":"1001003",
+            "depKey":"1321111"
          }
       ]
    }
