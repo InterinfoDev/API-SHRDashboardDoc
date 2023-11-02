@@ -26,7 +26,7 @@ Here is a JSON representation of request.
   },
   "requestBody": {
     {
-       "depNumber":2
+       "depKey":"99710822536208190343"
     }
   },
   "uid":"98599308101484732326",
@@ -43,7 +43,7 @@ Here is a JSON representation of request.
 ### requestBody Properties
 | Key | Value | Type | Description | Required | Format |
 |:----------|:-------------|:-----|:------------|:------------|:------------|
-| depNumber | 2 | Integer | 單位暗碼 | Y | n/a |
+| depKey | 99710822536208190343 | String | 單位Key值 | Y | n/a |
 
 ### requestBody FieldName
 | FieldName | Description |
@@ -63,13 +63,15 @@ Here is a JSON representation of request.
    "responseBody":{
       "functionList":[
          {
-            "name":"Information Dashboard Design",
-            "page":"Function1",
+            "name":"D001-人力缺口",
+            "page":"Dashboard.D001",
+            "functionKey": "1864901968730750136654522318106618588649",
             "checked":false
          },
          {
-            "name":"D.招募相關",
-            "page":"D",
+            "name":"D002-錄取管道分析",
+            "page":"Dashboard.D002",
+            "functionKey": "1864901968730750136643422650747353039852",
             "checked":false
          }
       ]
