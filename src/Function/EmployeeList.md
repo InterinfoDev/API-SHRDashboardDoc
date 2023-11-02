@@ -26,7 +26,7 @@ Here is a JSON representation of request.
   },
   "requestBody": {
     {
-       "depNumber":2
+        "depKey":"99710822536208190343"
     }
   },
   "uid":"98599308101484732326",
@@ -43,7 +43,7 @@ Here is a JSON representation of request.
 ### requestBody Properties
 | Key | Value | Type | Description | Required | Format |
 |:----------|:-------------|:-----|:------------|:------------|:------------|
-| depNumber | 2 | Integer | 單位暗碼 | Y | n/a |
+| depKey | 99710822536208190343 | String | 單位key值 | Y | n/a |
 
 ### requestBody FieldName
 | FieldName | Description |
