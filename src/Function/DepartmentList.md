@@ -1,5 +1,5 @@
 # DepartmentList
-部們群組列表
+部門群組列表
 
 ### HTTP Request
 ```
