@@ -37,9 +37,12 @@ Here is a JSON representation of request.
 | requestHeader | Object | 要求本文 |
 | requestBody | Object | 要求本文 |
 
+
 ### requestBody Properties
 | Key | Value | Type | Description | Required | Format |
 |:----------|:-------------|:-----|:------------|:------------|:------------|
+| uid | admin | String | 登入帳號 | Y | n/a |
+| pwd | 1234 | String | 登入密碼 | Y | n/a |
 
 ### requestBody FieldName
 | FieldName | Description |
