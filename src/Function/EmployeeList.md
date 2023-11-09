@@ -49,7 +49,7 @@ Here is a JSON representation of request.
 | depNumber | 部門暗碼 |
 | employeeId | 員工編號 |
 | empFullName | 員工中文名稱 |
-
+| isChief | 是否為主管 |
 
 ### HTTP Response when Successful
 ```json
@@ -62,11 +62,13 @@ Here is a JSON representation of request.
       "employeeList":[
          {
             "employeeId":"11XXX1",
-            "empFullName":"XO楠"
+            "empFullName":"XO楠",
+            "isChief": true
          },
          {
             "employeeId":"1XX4X03",
-            "empFullName":"林OX"
+            "empFullName":"林OX",
+            "isChief": false
          }
       ]
    }
