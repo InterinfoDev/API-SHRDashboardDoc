@@ -59,6 +59,7 @@ Here is a JSON representation of request.
 | depNumber | 單位暗碼 |
 | function | 功能權限資料 |
 | canUseFunctionList | 可使用功能id列表 |
+| subProjectList | 子功能 |
 | name | 功能名稱 |
 | page | 功能代號 |
 | canUseAuth | 是否可開啟控制權限功能 |
