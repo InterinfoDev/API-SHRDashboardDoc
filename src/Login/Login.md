@@ -58,7 +58,9 @@ Here is a JSON representation of request.
 | creatDate | 建立日期 |
 | depNumber | 單位暗碼 |
 | function | 功能權限資料 |
-| canUseFunctionId | 可使用功能id |
+| canUseFunctionList | 可使用功能id列表 |
+| name | 功能名稱 |
+| page | 功能代號 |
 | canUseAuth | 是否可開啟控制權限功能 |
 
 
@@ -80,13 +82,24 @@ Here is a JSON representation of request.
       "photo":"",
       "creatDate":"19980102",
       "depNumber":1,
+      "canUseAuth":true,
       "function":{
-         "canUseFunctionId":[
-            "Dashboard.D001",
-            "Dashboard.D002",
-            "Dashboard.D003"
-         ],
-         "canUseAuth": true
+         "canUseFunctionList":[
+            {
+               "name":"D.招募相關",
+               "page":"Dashboard.D",
+               "subProjectList":[
+                  {
+                     "name":"D001.人力缺口",
+                     "page":"Dashboard.D001"
+                  },
+                  {
+                     "name":"D002.錄取管道分析",
+                     "page":"Dashboard.D002"
+                  }
+               ]
+            }
+         ]
       }
    }
 }
