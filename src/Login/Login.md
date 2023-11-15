@@ -82,26 +82,7 @@ Here is a JSON representation of request.
       "empFullEname":"",
       "photo":"",
       "creatDate":"19980102",
-      "depNumber":1,
-      "canUseAuth":true,
-      "function":{
-         "canUseFunctionList":[
-            {
-               "name":"D.招募相關",
-               "page":"Dashboard.D",
-               "subProjectList":[
-                  {
-                     "name":"D001.人力缺口",
-                     "page":"Dashboard.D001"
-                  },
-                  {
-                     "name":"D002.錄取管道分析",
-                     "page":"Dashboard.D002"
-                  }
-               ]
-            }
-         ]
-      }
+      "depNumber":1
    }
 }
 ```
