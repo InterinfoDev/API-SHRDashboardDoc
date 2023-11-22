@@ -72,12 +72,6 @@ Here is a JSON representation of request.
    "responseBody":{
       "identifyData":[
          {
-            "fieldName":"中文姓名",
-            "value":"A",
-            "oldValue":"",
-            "change":false
-         },
-         {
             "fieldName":"英文姓名",
             "value":"Administrator",
             "oldValue":"",
@@ -90,22 +84,22 @@ Here is a JSON representation of request.
             "change":false
          },
          {
+            "fieldName":"職稱",
+            "value":"5001",
+            "oldValue":"",
+            "change":false
+         },
+         {
             "fieldName":"分機號碼",
             "value":"34",
             "oldValue":"",
             "change":false
          },
          {
-            "fieldName":"職位",
-            "value":"0002",
-            "oldValue":"",
-            "change":false
-         },
-         {
             "fieldName":"照片",
-            "value":"hrm/photo/1700033145524_WT-Group-V2.png",
+            "value":"",
             "oldValue":"",
-            "change":false
+            "change":true
          }
       ],
       "personalData":[
@@ -373,7 +367,7 @@ Here is a JSON representation of request.
                   "20130823",
                   "Y",
                   "11tt",
-                  "babylon\\files\\證照資料\\1678700486171_新文字文件.txt"
+                  ""
                ],
                [
                   "甲級空氣污染防治專責人員",
@@ -389,7 +383,7 @@ Here is a JSON representation of request.
                   "20221001",
                   "Y",
                   "yy4",
-                  "babylon\\files\\證照資料\\1665470364443_Test 下載 123.pdf"
+                  ""
                ],
                [
                   "甲級廢水處理專責人員",
@@ -426,7 +420,7 @@ Here is a JSON representation of request.
                   "20190701",
                   "20200630",
                   "",
-                  "babylon\\files\\GREES\\1665470478618_Test 下載 123.pdf"
+                  ""
                ],
                [
                   "2",
