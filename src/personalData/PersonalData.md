@@ -79,13 +79,13 @@ Here is a JSON representation of request.
          },
          {
             "fieldName":"單位名稱",
-            "value":"1",
+            "value":"1 英特內股份有限公司",
             "oldValue":"",
             "change":false
          },
          {
             "fieldName":"職稱",
-            "value":"5001",
+            "value":"系統管理員",
             "oldValue":"",
             "change":false
          },
@@ -105,13 +105,13 @@ Here is a JSON representation of request.
       "personalData":[
          {
             "fieldName":"行事曆班別",
-            "value":"03",
+            "value":"全班0930-2100",
             "oldValue":"",
             "change":false
          },
          {
             "fieldName":"婚姻",
-            "value":"A",
+            "value":"已婚",
             "oldValue":"",
             "change":false
          },
@@ -123,13 +123,13 @@ Here is a JSON representation of request.
          },
          {
             "fieldName":"到職日期",
-            "value":"20200309",
+            "value":"2020/03/09",
             "oldValue":"",
             "change":false
          },
          {
             "fieldName":"工作地點",
-            "value":"TW9",
+            "value":"雲林",
             "oldValue":"",
             "change":false
          },
@@ -147,13 +147,13 @@ Here is a JSON representation of request.
          },
          {
             "fieldName":"原住民",
-            "value":"Y",
+            "value":"是",
             "oldValue":"",
             "change":false
          },
          {
             "fieldName":"代扣所得稅",
-            "value":"Y",
+            "value":"是",
             "oldValue":"",
             "change":false
          },
@@ -247,19 +247,19 @@ Here is a JSON representation of request.
       "educationData":[
          {
             "fieldName":"最高學歷",
-            "value":"7",
+            "value":"博士班畢業",
             "oldValue":"",
             "change":false
          },
          {
             "fieldName":"畢業學校",
-            "value":"A0007",
+            "value":"國立交通大學",
             "oldValue":"",
             "change":false
          },
          {
             "fieldName":"主修科系",
-            "value":"349914",
+            "value":"人力資源發展系",
             "oldValue":"",
             "change":false
          },
@@ -271,7 +271,7 @@ Here is a JSON representation of request.
          },
          {
             "fieldName":"畢肄業年月",
-            "value":"200706",
+            "value":"2007/06",
             "oldValue":"",
             "change":false
          },
@@ -291,7 +291,7 @@ Here is a JSON representation of request.
       "benefitData":[
          {
             "fieldName":"健保生效日",
-            "value":"19911201",
+            "value":"1991/12/01",
             "oldValue":"",
             "change":false
          },
@@ -315,7 +315,7 @@ Here is a JSON representation of request.
          },
          {
             "fieldName":"勞保生效日",
-            "value":"20130428",
+            "value":"2013/04/28",
             "oldValue":"",
             "change":false
          },
@@ -333,7 +333,7 @@ Here is a JSON representation of request.
          },
          {
             "fieldName":"公司提撥退休金",
-            "value":"A",
+            "value":"新制",
             "oldValue":"",
             "change":false
          },
@@ -363,40 +363,40 @@ Here is a JSON representation of request.
             "data":[
                [
                   "急救人員",
-                  "20130801",
-                  "20130823",
+                  "2013/08/01",
+                  "2013/08/23",
                   "Y",
                   "11tt",
                   ""
                ],
                [
                   "甲級空氣污染防治專責人員",
-                  "20201015",
-                  "20201015",
+                  "2020/10/15",
+                  "2020/10/15",
                   "N",
                   "22",
                   ""
                ],
                [
                   "1234",
-                  "20221001",
-                  "20221001",
+                  "2022/10/01",
+                  "2022/10/01",
                   "Y",
                   "yy4",
                   ""
                ],
                [
                   "甲級廢水處理專責人員",
-                  "20221101",
-                  "20221130",
+                  "2022/11/01",
+                  "2022/11/30",
                   "N",
                   "j",
                   ""
                ],
                [
                   "甲級空氣污染防治專責人員",
-                  "20221101",
-                  "20221109",
+                  "2022/11/01",
+                  "2022/11/09",
                   "Y",
                   "hh",
                   ""
@@ -417,24 +417,24 @@ Here is a JSON representation of request.
                [
                   "1",
                   "一年期契約",
-                  "20190701",
-                  "20200630",
+                  "2019/07/01",
+                  "2020/06/30",
                   "",
                   ""
                ],
                [
                   "2",
                   "三年期契約",
-                  "20200503",
-                  "20200529",
+                  "2020/05/03",
+                  "2020/05/29",
                   "",
                   ""
                ],
                [
                   "3",
                   "二年期契約",
-                  "20200503",
-                  "20200531",
+                  "2020/05/03",
+                  "2020/05/31",
                   "",
                   ""
                ]
@@ -461,8 +461,8 @@ Here is a JSON representation of request.
                   "72英特內(中和)",
                   "h",
                   "hh",
-                  "20221001",
-                  "20221015",
+                  "2022/10/01",
+                  "2022/10/15",
                   "10.0",
                   "t",
                   "hh",
@@ -475,8 +475,8 @@ Here is a JSON representation of request.
                   "72英特內(中和)",
                   "yyy",
                   "yyyy",
-                  "20221001",
-                  "20221008",
+                  "2022/10/01",
+                  "2022/10/08",
                   "10.0",
                   "tttt",
                   "jmm",
@@ -536,7 +536,7 @@ Here is a JSON representation of request.
                [
                   "V220907583",
                   "岳先生",
-                  "20231109",
+                  "2023/11/09",
                   "男",
                   "岳父岳母",
                   "",
