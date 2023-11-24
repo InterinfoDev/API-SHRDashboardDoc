@@ -25,7 +25,7 @@ Here is a JSON representation of request.
   "requestHeader": {
   },
   "requestBody": {
-        "locale":"TW",
+        "locale":"US",
         "deviceType":"WEB"
   },
   "uid":"98599308101484732326",
@@ -64,28 +64,84 @@ Here is a JSON representation of request.
    "responseBody":{
       "translateList":[
          {
+            "messageId":"personalData",
+            "content":"PersonalData"
+         },
+         {
+            "messageId":"connectData",
+            "content":"ConnectData"
+         },
+         {
+            "messageId":"educationData",
+            "content":"EducationData"
+         },
+         {
+            "messageId":"benefitData",
+            "content":"BenefitData"
+         },
+         {
+            "messageId":"Dashboard.D001",
+            "content":"D001.Manpower gap analysis"
+         },
+         {
+            "messageId":"Dashboard.D002",
+            "content":"D002.Admissions channel analysis"
+         },
+         {
+            "messageId":"Dashboard.D003",
+            "content":"D003.Recruitment efficiency analysis"
+         },
+         {
+            "messageId":"Dashboard.D004",
+            "content":"D004.The average number of days to recruit"
+         },
+         {
+            "messageId":"Dashboard.D005",
+            "content":"D005.New Employee Registration Form"
+         },
+         {
+            "messageId":"Dashboard.D006",
+            "content":"D006.Probationary pass rate"
+         },
+         {
+            "messageId":"Dashboard.D007",
+            "content":"D007.Analysis of departmental screening results"
+         },
+         {
+            "messageId":"Dashboard.D008",
+            "content":"D008.Analysis of the results of the job screening"
+         },
+         {
+            "messageId":"Dashboard.D009",
+            "content":"D009.Overview of comprehensive recruitment"
+         },
+         {
+            "messageId":"Dashboard.D009",
+            "content":"D009.Overview of comprehensive recruitment"
+         },
+         {
             "messageId":"Dashboard.D",
-            "content":"人員配置策略"
+            "content":"Staffing policies"
          },
          {
             "messageId":"Dashboard.J",
-            "content":"績效評估"
+            "content":"Performance evaluation"
          },
          {
             "messageId":"Dashboard.H",
-            "content":"員工動態"
+            "content":"Employee dynamics"
          },
          {
             "messageId":"Dashboard.I",
-            "content":"考勤洞察"
+            "content":"Time and Attendance Insights"
          },
          {
             "messageId":"Dashboard.M",
-            "content":"薪資結構"
+            "content":"Salary structure"
          },
          {
             "messageId":"Dashboard.F",
-            "content":"教育與訓練"
+            "content":"Education and training"
          }
       ]
    }
