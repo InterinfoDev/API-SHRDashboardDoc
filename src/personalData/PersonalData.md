@@ -72,40 +72,52 @@ Here is a JSON representation of request.
    "responseBody":{
       "identifyData":[
          {
-            "fieldName":"英文姓名",
-            "value":"Administrator",
+            "fieldName":"單位名稱",
+            "value":"經營管理",
             "oldValue":"",
             "change":false
          },
          {
-            "fieldName":"單位名稱",
-            "value":"1 英特內股份有限公司",
+            "fieldName":"員工編號",
+            "value":"L089100",
+            "oldValue":"",
+            "change":false
+         },
+         {
+            "fieldName":"員工姓名",
+            "value":"陳汝玲",
             "oldValue":"",
             "change":false
          },
          {
             "fieldName":"職稱",
-            "value":"系統管理員",
-            "oldValue":"",
-            "change":false
-         },
-         {
-            "fieldName":"分機號碼",
-            "value":"34",
+            "value":"副總經理",
             "oldValue":"",
             "change":false
          },
          {
             "fieldName":"照片",
-            "value":"",
+            "value":"/servlet/jform?em_step=2&file=hrm8biw.pkg&enc=93d23f3a4b3f1a1110574d52104f57504b50100f0b0f060f0b0c0e0e0d0d0d0860060c0f090f0d0f114f5158",
             "oldValue":"",
-            "change":true
+            "change":false
+         },
+         {
+            "fieldName":"分機號碼",
+            "value":"100",
+            "oldValue":"",
+            "change":false
          }
       ],
       "personalData":[
          {
+            "fieldName":"員工姓名",
+            "value":"陳汝玲",
+            "oldValue":"",
+            "change":false
+         },
+         {
             "fieldName":"行事曆班別",
-            "value":"全班0930-2100",
+            "value":"日常班",
             "oldValue":"",
             "change":false
          },
@@ -117,55 +129,55 @@ Here is a JSON representation of request.
          },
          {
             "fieldName":"電子信箱",
-            "value":"richardwu@interinfo.com.tw",
+            "value":"",
             "oldValue":"",
-            "change":false
+            "change":true
          },
          {
             "fieldName":"到職日期",
-            "value":"2020/03/09",
+            "value":"2000/06/26",
             "oldValue":"",
             "change":false
          },
          {
             "fieldName":"工作地點",
-            "value":"雲林",
+            "value":"新北-建一",
             "oldValue":"",
             "change":false
          },
          {
             "fieldName":"聯絡電話",
-            "value":"03-244446799",
+            "value":"",
             "oldValue":"",
-            "change":false
+            "change":true
          },
          {
             "fieldName":"行動電話",
-            "value":"097X3XX620",
+            "value":"",
+            "oldValue":"",
+            "change":true
+         },
+         {
+            "fieldName":"身高",
+            "value":"0",
             "oldValue":"",
             "change":false
          },
          {
-            "fieldName":"原住民",
-            "value":"是",
+            "fieldName":"是否代扣所得稅",
+            "value":"",
             "oldValue":"",
-            "change":false
+            "change":true
          },
          {
-            "fieldName":"代扣所得稅",
-            "value":"是",
+            "fieldName":"是否為原住民",
+            "value":"N",
             "oldValue":"",
             "change":false
          },
          {
             "fieldName":"體重",
-            "value":"189",
-            "oldValue":"",
-            "change":false
-         },
-         {
-            "fieldName":"身高",
-            "value":"160",
+            "value":"0",
             "oldValue":"",
             "change":false
          }
@@ -173,116 +185,116 @@ Here is a JSON representation of request.
       "connectData":[
          {
             "fieldName":"戶籍郵遞區號",
-            "value":"8846",
+            "value":"234",
             "oldValue":"",
             "change":false
          },
          {
             "fieldName":"戶籍地址",
-            "value":"新北市中和區建一路１５０號６樓之３",
-            "oldValue":"",
-            "change":false
-         },
-         {
-            "fieldName":"戶籍電話",
-            "value":"02-12",
-            "oldValue":"",
-            "change":false
-         },
-         {
-            "fieldName":"現址郵遞區號",
-            "value":"302",
-            "oldValue":"",
-            "change":false
-         },
-         {
-            "fieldName":"現址地址",
-            "value":"測試路１２８０號",
-            "oldValue":"",
-            "change":false
-         },
-         {
-            "fieldName":"現址電話",
-            "value":"02-888888880",
-            "oldValue":"",
-            "change":false
-         },
-         {
-            "fieldName":"通訊郵遞區號",
-            "value":"0095558",
-            "oldValue":"",
-            "change":false
-         },
-         {
-            "fieldName":"通訊地址",
-            "value":"新北市中和區建一路１５０號６樓之３",
-            "oldValue":"",
-            "change":false
-         },
-         {
-            "fieldName":"通訊電話",
-            "value":"02-12345678",
-            "oldValue":"",
-            "change":false
-         },
-         {
-            "fieldName":"緊急聯絡人姓名",
-            "value":"測試B",
-            "oldValue":"",
-            "change":false
-         },
-         {
-            "fieldName":"緊急聯絡人關係",
-            "value":"朋友",
-            "oldValue":"",
-            "change":false
-         },
-         {
-            "fieldName":"緊急聯絡人電話",
-            "value":"0975422222223",
-            "oldValue":"",
-            "change":false
-         }
-      ],
-      "educationData":[
-         {
-            "fieldName":"最高學歷",
-            "value":"博士班畢業",
-            "oldValue":"",
-            "change":false
-         },
-         {
-            "fieldName":"畢業學校",
-            "value":"國立交通大學",
-            "oldValue":"",
-            "change":false
-         },
-         {
-            "fieldName":"主修科系",
-            "value":"人力資源發展系",
-            "oldValue":"",
-            "change":false
-         },
-         {
-            "fieldName":"請假時通知人員",
-            "value":"0005,0008,0102",
-            "oldValue":"",
-            "change":false
-         },
-         {
-            "fieldName":"畢肄業年月",
-            "value":"2007/06",
-            "oldValue":"",
-            "change":false
-         },
-         {
-            "fieldName":"留職停薪日期-起",
             "value":"",
             "oldValue":"",
             "change":true
          },
          {
-            "fieldName":"留職停薪日期-訖",
+            "fieldName":"戶籍電話",
+            "value":"",
+            "oldValue":"",
+            "change":true
+         },
+         {
+            "fieldName":"現址郵遞區號",
+            "value":"234",
+            "oldValue":"",
+            "change":false
+         },
+         {
+            "fieldName":"現址地址",
+            "value":"",
+            "oldValue":"",
+            "change":true
+         },
+         {
+            "fieldName":"現址電話",
+            "value":"",
+            "oldValue":"",
+            "change":true
+         },
+         {
+            "fieldName":"通訊郵遞區號",
+            "value":"234",
+            "oldValue":"",
+            "change":false
+         },
+         {
+            "fieldName":"通訊地址",
+            "value":"",
+            "oldValue":"",
+            "change":true
+         },
+         {
+            "fieldName":"通訊電話",
+            "value":"",
+            "oldValue":"",
+            "change":true
+         },
+         {
+            "fieldName":"緊急聯絡人姓名",
+            "value":"OO",
+            "oldValue":"",
+            "change":false
+         },
+         {
+            "fieldName":"緊急聯絡人關係",
+            "value":"",
+            "oldValue":"",
+            "change":true
+         },
+         {
+            "fieldName":"緊急聯絡人電話",
+            "value":"",
+            "oldValue":"",
+            "change":true
+         }
+      ],
+      "educationData":[
+         {
+            "fieldName":"最高學歷",
+            "value":"學士",
+            "oldValue":"",
+            "change":false
+         },
+         {
+            "fieldName":"畢業學校",
+            "value":"淡江大學",
+            "oldValue":"",
+            "change":false
+         },
+         {
+            "fieldName":"主修科系",
+            "value":"電子計算機應用學系",
+            "oldValue":"",
+            "change":false
+         },
+         {
+            "fieldName":"請假時通知人員",
+            "value":"L091158,L091163,L093217,L089069 L101400 L098341",
+            "oldValue":"",
+            "change":false
+         },
+         {
+            "fieldName":"畢肄業年月",
+            "value":"1987/06",
+            "oldValue":"",
+            "change":false
+         },
+         {
+            "fieldName":"留職停薪迄日",
+            "value":"",
+            "oldValue":"",
+            "change":true
+         },
+         {
+            "fieldName":"留職停薪起日",
             "value":"",
             "oldValue":"",
             "change":true
@@ -291,13 +303,13 @@ Here is a JSON representation of request.
       "benefitData":[
          {
             "fieldName":"健保生效日",
-            "value":"1991/12/01",
+            "value":"2020/10/23",
             "oldValue":"",
             "change":false
          },
          {
             "fieldName":"健保等級",
-            "value":"92100",
+            "value":"26400",
             "oldValue":"",
             "change":false
          },
@@ -315,13 +327,13 @@ Here is a JSON representation of request.
          },
          {
             "fieldName":"勞保生效日",
-            "value":"2013/04/28",
+            "value":"2020/10/23",
             "oldValue":"",
             "change":false
          },
          {
             "fieldName":"勞保等級",
-            "value":"21000",
+            "value":"26400",
             "oldValue":"",
             "change":false
          },
@@ -339,13 +351,13 @@ Here is a JSON representation of request.
          },
          {
             "fieldName":"退休金等級",
-            "value":"123",
+            "value":"26400",
             "oldValue":"",
             "change":false
          },
          {
             "fieldName":"扶養人數",
-            "value":"1",
+            "value":"2",
             "oldValue":"",
             "change":false
          }
@@ -358,47 +370,47 @@ Here is a JSON representation of request.
                "有效日期",
                "計算證照津貼",
                "備註",
-               "檔案上傳"
+               "檔案下載"
             ],
             "data":[
                [
-                  "急救人員",
-                  "2013/08/01",
-                  "2013/08/23",
-                  "Y",
-                  "11tt",
-                  ""
-               ],
-               [
-                  "甲級空氣污染防治專責人員",
-                  "2020/10/15",
-                  "2020/10/15",
+                  "HR-薪酬管理師",
+                  "1998/03/05",
+                  "",
                   "N",
-                  "22",
+                  "",
                   ""
                ],
                [
-                  "1234",
-                  "2022/10/01",
-                  "2022/10/01",
-                  "Y",
-                  "yy4",
-                  ""
-               ],
-               [
-                  "甲級廢水處理專責人員",
-                  "2022/11/01",
-                  "2022/11/30",
+                  "HR-員工發展管理師",
+                  "1998/01/09",
+                  "",
                   "N",
-                  "j",
+                  "",
                   ""
                ],
                [
-                  "甲級空氣污染防治專責人員",
-                  "2022/11/01",
-                  "2022/11/09",
-                  "Y",
-                  "hh",
+                  "HR-職能管理師",
+                  "2007/09/01",
+                  "",
+                  "N",
+                  "",
+                  ""
+               ],
+               [
+                  "HR-TTQS管理師",
+                  "2007/06/01",
+                  "",
+                  "N",
+                  "",
+                  ""
+               ],
+               [
+                  "HR-個人資料保護顧問培訓",
+                  "",
+                  "",
+                  "N",
+                  "",
                   ""
                ]
             ],
@@ -411,39 +423,16 @@ Here is a JSON representation of request.
                "起始日期",
                "結束日期",
                "備註",
-               "檔案上傳"
+               "檔案下載"
             ],
             "data":[
-               [
-                  "1",
-                  "一年期契約",
-                  "2019/07/01",
-                  "2020/06/30",
-                  "",
-                  ""
-               ],
-               [
-                  "2",
-                  "三年期契約",
-                  "2020/05/03",
-                  "2020/05/29",
-                  "",
-                  ""
-               ],
-               [
-                  "3",
-                  "二年期契約",
-                  "2020/05/03",
-                  "2020/05/31",
-                  "",
-                  ""
-               ]
+               
             ],
             "show":true
          },
          "educationTableData":{
             "title":[
-               "公司別 ",
+               "公司別",
                "課程名稱",
                "開課單位",
                "起始日期",
@@ -454,43 +443,16 @@ Here is a JSON representation of request.
                "分數",
                "證書號碼",
                "備註",
-               "檔案上傳"
+               "檔案下載"
             ],
             "data":[
-               [
-                  "72英特內(中和)",
-                  "h",
-                  "hh",
-                  "2022/10/01",
-                  "2022/10/15",
-                  "10.0",
-                  "t",
-                  "hh",
-                  "120.3",
-                  "k",
-                  "",
-                  ""
-               ],
-               [
-                  "72英特內(中和)",
-                  "yyy",
-                  "yyyy",
-                  "2022/10/01",
-                  "2022/10/08",
-                  "10.0",
-                  "tttt",
-                  "jmm",
-                  "100.0",
-                  "tt",
-                  "",
-                  ""
-               ]
+               
             ],
-            "show":true
+            "show":false
          },
          "assessTableData":{
             "title":[
-               "公司別 ",
+               "公司別",
                "單位",
                "年度",
                "考核項目",
@@ -505,11 +467,11 @@ Here is a JSON representation of request.
             "data":[
                
             ],
-            "show":true
+            "show":false
          },
          "rewardTableData":{
             "title":[
-               "公司別 ",
+               "公司別",
                "部門名稱",
                "獎懲名稱",
                "獎懲事由",
@@ -519,7 +481,7 @@ Here is a JSON representation of request.
             "data":[
                
             ],
-            "show":true
+            "show":false
          },
          "famailyTableData":{
             "title":[
@@ -533,18 +495,9 @@ Here is a JSON representation of request.
                "健保優惠"
             ],
             "data":[
-               [
-                  "V220907583",
-                  "岳先生",
-                  "2023/11/09",
-                  "男",
-                  "岳父岳母",
-                  "",
-                  "Y",
-                  ""
-               ]
+               
             ],
-            "show":true
+            "show":false
          },
          "undergoTableData":{
             "title":[
