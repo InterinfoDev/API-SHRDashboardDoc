@@ -26,7 +26,7 @@ Here is a JSON representation of request.
   },
   "requestBody": {
         "locale":"US",
-        "deviceType":"WEB"
+        "device":"WEB"
   },
   "uid":"98599308101484732326",
   "right":"51341911904173543336756162544864820"
@@ -43,7 +43,7 @@ Here is a JSON representation of request.
 | Key | Value | Type | Description | Required | Format |
 |:----------|:-------------|:-----|:------------|:------------|:------------|
 | locale | TW | String | 語系 | Y | n/a |
-| deviceType | WEB | String | 裝置 | Y | n/a |
+| device | WEB | String | 裝置 | Y | n/a |
 
 ### requestBody FieldName
 | FieldName | Description |
