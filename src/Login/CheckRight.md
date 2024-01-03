@@ -1,5 +1,5 @@
 # CheckRight
-登入程式
+確認登入權限
 
 ### HTTP Request
 ```
@@ -50,20 +50,6 @@ Here is a JSON representation of request.
 | message | 訊息 |
 | uid | uid |
 | right | right |
-| employeeId | 員工編號 |
-| companyId | 公司別 |
-| empFullName | 員工中文姓名 |
-| empFullEname | 員工英文姓名 |
-| photo | 照片 |
-| creatDate | 建立日期 |
-| depNumber | 單位暗碼 |
-| function | 功能權限資料 |
-| canUseFunctionList | 可使用功能id列表 |
-| subProjectList | 子功能 |
-| name | 功能名稱 |
-| page | 功能代號 |
-| canUseAuth | 是否可開啟控制權限功能 |
-
 
 ### HTTP Response when Successful
 ```json
