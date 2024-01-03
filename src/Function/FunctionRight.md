@@ -49,6 +49,7 @@ Here is a JSON representation of request.
 | page | 功能代號 |
 | functionKey | 功能Key |
 | subProjectList | 子功能 |
+| right | 是否登入狀態 |
 
 
 ### HTTP Response when Successful
@@ -60,6 +61,7 @@ Here is a JSON representation of request.
    },
    "responseBody":{
       "canUseAuth":true,
+      "right":true,
       "function":{
          "canUseFunctionList":[
             {
