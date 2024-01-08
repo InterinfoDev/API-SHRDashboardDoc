@@ -91,7 +91,8 @@ Here is a JSON representation of request.
          "empFullName":"呂宜真",
          "empFullEname":"ADA",
          "photo":"XXXXXXXXXXXXX",
-         "creatDate":"20090801"
+         "creatDate":"20090801",
+         "canUseAuth": true
       },
       "status":true
    }
