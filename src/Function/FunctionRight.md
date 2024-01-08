@@ -46,9 +46,9 @@ Here is a JSON representation of request.
 | page | 功能代號 |
 | functionKey | 功能Key |
 | subProjectList | 子功能 |
-| right | 是否登入狀態 |
+| uid | uid |
+| right | 登入權限 |
 | canUseFunctionList | 可以使用的功能列表 |
-| right | right |
 | employeeId | 員工編號 |
 | empFullEname | 中文姓名 |
 | empFullEname | 英文姓名 |
@@ -85,6 +85,7 @@ Here is a JSON representation of request.
                ]
             }
          ],
+         "uid": "98599308101484732326",
          "right":"40749767134770117",
          "employeeId":"admin",
          "companyId":"97090920",
