@@ -14,8 +14,7 @@ POST
 ### Request body
 | Key | Value | Type | Description |
 |:----------|:-------------|:-----|:------------|
-| uid | 98599308101484732326 | String | 需透過apiLogin取得
-| right | 51341911904173543336756162544864820 | String | 需透過apiLogin取得 |
+
 
 ### JSON representation
 
@@ -26,9 +25,7 @@ Here is a JSON representation of request.
   },
   "requestBody": {
       
-  },
-  "uid":"98599308101484732326",
-  "right":"51341911904173543336756162544864820"
+  }
 }
 ```
 
@@ -50,6 +47,14 @@ Here is a JSON representation of request.
 | functionKey | 功能Key |
 | subProjectList | 子功能 |
 | right | 是否登入狀態 |
+| canUseFunctionList | 可以使用的功能列表 |
+| right | right |
+| employeeId | 員工編號 |
+| empFullEname | 中文姓名 |
+| empFullEname | 英文姓名 |
+| photo | 照片 |
+| creatDate | 入職日期 |
+| status | 登入狀態 |
 
 
 ### HTTP Response when Successful
@@ -60,9 +65,7 @@ Here is a JSON representation of request.
       "resultCode":"200"
    },
    "responseBody":{
-      "canUseAuth":true,
-      "right":true,
-      "function":{
+      "data":{
          "canUseFunctionList":[
             {
                "name":"人員配置策略",
@@ -81,14 +84,35 @@ Here is a JSON representation of request.
                   }
                ]
             }
-         ]
-      }
+         ],
+         "right":"40749767134770117",
+         "employeeId":"admin",
+         "companyId":"97090920",
+         "empFullName":"呂宜真",
+         "empFullEname":"ADA",
+         "photo":"XXXXXXXXXXXXX",
+         "creatDate":"20090801"
+      },
+      "status":true
    }
 }
 ```
 
 ### HTTP Response when No Data
-此程式不會有查無資料發生
+{
+   "responseHeader":{
+      "resultMessage":"執行成功",
+      "resultCode":"200"
+   },
+   "responseBody":{
+      "canUseAuth":false,
+      "right":false,
+      "data":{
+         
+      },
+      "status":false
+   }
+}
 
 ### HTTP Response when Failed
 ```json
