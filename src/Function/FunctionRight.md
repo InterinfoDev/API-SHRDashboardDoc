@@ -52,6 +52,8 @@ Here is a JSON representation of request.
 | employeeId | 員工編號 |
 | empFullEname | 中文姓名 |
 | empFullEname | 英文姓名 |
+| depType | 單位階層 |
+| depNumber | 單位暗碼 |
 | photo | 照片 |
 | creatDate | 入職日期 |
 | status | 登入狀態 |
@@ -91,6 +93,8 @@ Here is a JSON representation of request.
          "companyId":"97090920",
          "empFullName":"呂宜真",
          "empFullEname":"ADA",
+         "depNumber": 5,
+         "depType": 9,
          "photo":"XXXXXXXXXXXXX",
          "creatDate":"20090801",
          "canUseAuth": true
