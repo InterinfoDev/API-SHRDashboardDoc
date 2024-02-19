@@ -133,9 +133,7 @@ Here is a JSON representation of request.
         "retentionRate": 100.00,
         "admissionRate": 0.00,
         "dimissionRate": 0.00,
-        "staffTurnoverRate": 0.00,
         "unpaidLeaveRate": 0.00,
-        "simultaneousStaffTurnoverRate": -7600.00
       },
       {
         "depName": "L1線A班",
@@ -148,9 +146,7 @@ Here is a JSON representation of request.
         "retentionRate": 100.00,
         "admissionRate": 4.00,
         "dimissionRate": 0.00,
-        "staffTurnoverRate": 0.00,
         "unpaidLeaveRate": 0.00,
-        "simultaneousStaffTurnoverRate": -2400.00
       }
     ]
   }
