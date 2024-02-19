@@ -79,16 +79,8 @@ Here is a JSON representation of request.
         "key": "dimissionRate"
       },
       {
-        "title": "流失率",
-        "key": "staffTurnoverRate"
-      },
-      {
         "title": "留停率",
         "key": "unpaidLeaveRate"
-      },
-      {
-        "title": "同期流失率",
-        "key": "simultaneousStaffTurnoverRate"
       }
     ],
     "lableList": [
@@ -97,12 +89,20 @@ Here is a JSON representation of request.
         "key": "depName"
       },
       {
+        "title": "新進",
+        "key": "newIn"
+      },
+      {
         "title": "調入",
         "key": "transferIn"
       },
       {
         "title": "調出",
         "key": "transferOut"
+      },
+      {
+        "title": "留停",
+        "key": "unPaidLeave"
       },
       {
         "title": "離職",
