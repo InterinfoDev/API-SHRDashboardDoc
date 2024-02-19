@@ -82,19 +82,9 @@ Here is a JSON representation of request.
             "percent":0.00
          },
          {
-            "title":"流失率",
-            "key":"lostRate",
-            "percent":0.00
-         },
-         {
             "title":"留停率",
             "key":"stopRate",
             "percent":0.00
-         },
-         {
-            "title":"同期流失率",
-            "key":"sameLostRate",
-            "percent":-17300.00
          }
       ],
       "title":"整體異動數據"
