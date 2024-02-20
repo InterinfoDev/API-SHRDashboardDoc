@@ -25,6 +25,7 @@ Here is a JSON representation of request.
   },
   "requestBody": {
     "companyId":["1"]
+    ,"depNumber":[1,2,3]
     ,"workPlace":["TW1"]
     ,"yymm":"202301"
     ,"lastYymm":"202212"
@@ -45,6 +46,7 @@ Here is a JSON representation of request.
 | Key | Value | Type | Description | Required | Format |
 |:----------|:-------------|:-----|:------------|:------------|:------------|
 | companyId | 1 | Array(String) | 公司代號 | Y | n/a |
+| depNumber | 1 | Array(Integer) | 單位暗碼 | Y | n/a |
 | workPlace | TW1 | Array(String) | 工作地點 | Y | n/a |
 | depType | 3 | Integer | 統計階層 | Y | n/a |
 | yymm | 202212 | String | 本期月份 | Y | YYYYmm |
