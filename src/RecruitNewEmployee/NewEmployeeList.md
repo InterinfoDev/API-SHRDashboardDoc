@@ -60,6 +60,7 @@ Here is a JSON representation of request.
 | lastPeriod | 上期月份 |
 | photo | 照片 |
 | empFullName | 中文姓名 |
+| empFullEName | 英文姓名 |
 | position | 職稱中文名稱 |
 | inDate | 到職日期 |
 | interviewLink | 履歷連結 |
@@ -104,50 +105,11 @@ Here is a JSON representation of request.
          {
             "photo":"",
             "empFullName":"江O甫",
+            "empFullEName":"andy",
             "position":"",
             "inDate":"",
             "interviewLink":"",
             "pno":"002021011100001"
-         },
-         {
-            "photo":"",
-            "empFullName":"馬O",
-            "position":"",
-            "inDate":"",
-            "interviewLink":"",
-            "pno":"002021011100003"
-         },
-         {
-            "photo":"",
-            "empFullName":"溫O綺",
-            "position":"",
-            "inDate":"",
-            "interviewLink":"",
-            "pno":"002021011100004"
-         },
-         {
-            "photo":"",
-            "empFullName":"測試一號",
-            "position":"",
-            "inDate":"",
-            "interviewLink":"",
-            "pno":"002023011800001"
-         },
-         {
-            "photo":"",
-            "empFullName":"測試二號",
-            "position":"",
-            "inDate":"",
-            "interviewLink":"",
-            "pno":"002023011800002"
-         },
-         {
-            "photo":"https://applv1.ecmaker-cloud.com/servlet/jform?em_step=2&file=hrm8w.pkg&enc=93d23f3a4b3f005d5e5d46535051635956535a4c63da8e9ad99288d79e9711630e090e0f0c0a0b0d0f0808060f60797d60767278600e090f0f0a0c07080e0b090d0f11554f58",
-            "empFullName":"林O威",
-            "position":"",
-            "inDate":"",
-            "interviewLink":"",
-            "pno":"002021011100006"
          }
       ],
       "lastPeriod":[
