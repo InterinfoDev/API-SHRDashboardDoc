@@ -27,6 +27,7 @@ Here is a JSON representation of request.
   "requestBody": {
      "companyId":["TW"]
       ,"depType": 10
+      ,"functionKey": "526468416548741684646468"
   },
   "uid":"98599308101484732326",
   "right":"51341911904173543336756162544864820"
@@ -44,6 +45,7 @@ Here is a JSON representation of request.
 |:----------|:-------------|:-----|:------------|:------------|:------------|
 | companyId | TW | Array(String) | 公司代號 | N | n/a |
 | depType | 10 | Integer | 統計階層 | Y | n/a |
+| functionKey | 165465468168468 | String | 功能代號 | Y | n/a |
 
 ### requestBody FieldName
 | FieldName | Description |
