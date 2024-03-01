@@ -88,31 +88,8 @@ Here is a JSON representation of request.
                   "department":"總經理",
                   "photo":"",
                   "employeeFullName":"總經理",
+                  "employeeFullEName":"總經理",
                   "possieName":"總經理"
-               },
-               {
-                  "department":"總經理",
-                  "photo":"",
-                  "employeeFullName":"課長",
-                  "possieName":"課長(一)"
-               },
-               {
-                  "department":"副總",
-                  "photo":"",
-                  "employeeFullName":"副總",
-                  "possieName":"副總經理"
-               },
-               {
-                  "department":"部門長",
-                  "photo":"",
-                  "employeeFullName":"部門長",
-                  "possieName":"經理"
-               },
-               {
-                  "department":"課",
-                  "photo":"/servlet/jform?em_step=2&file=hrm8w.pkg&enc=93d23f3a4b3f28574d52634f57504b50637a726f607b7b7b0f0d114f5158",
-                  "employeeFullName":"職員",
-                  "possieName":"專員(一)"
                }
             ]
          ]
@@ -133,31 +110,8 @@ Here is a JSON representation of request.
                   "department":"總經理",
                   "photo":"",
                   "employeeFullName":"總經理",
+                  "employeeFullEName":"總經理",
                   "possieName":"總經理"
-               },
-               {
-                  "department":"總經理",
-                  "photo":"",
-                  "employeeFullName":"課長",
-                  "possieName":"課長(一)"
-               },
-               {
-                  "department":"副總",
-                  "photo":"",
-                  "employeeFullName":"副總",
-                  "possieName":"副總經理"
-               },
-               {
-                  "department":"部門長",
-                  "photo":"",
-                  "employeeFullName":"部門長",
-                  "possieName":"經理"
-               },
-               {
-                  "department":"課",
-                  "photo":"/servlet/jform?em_step=2&file=hrm8w.pkg&enc=93d23f3a4b3f28574d52634f57504b50637a726f607b7b7b0f0d114f5158",
-                  "employeeFullName":"職員",
-                  "possieName":"專員(一)"
                }
             ]
          ]
@@ -178,31 +132,8 @@ Here is a JSON representation of request.
                   "department":"總經理",
                   "photo":"",
                   "employeeFullName":"總經理",
+                  "employeeFullEName":"總經理",
                   "possieName":"總經理"
-               },
-               {
-                  "department":"總經理",
-                  "photo":"",
-                  "employeeFullName":"課長",
-                  "possieName":"課長(一)"
-               },
-               {
-                  "department":"副總",
-                  "photo":"",
-                  "employeeFullName":"副總",
-                  "possieName":"副總經理"
-               },
-               {
-                  "department":"部門長",
-                  "photo":"",
-                  "employeeFullName":"部門長",
-                  "possieName":"經理"
-               },
-               {
-                  "department":"課",
-                  "photo":"/servlet/jform?em_step=2&file=hrm8w.pkg&enc=93d23f3a4b3f28574d52634f57504b50637a726f607b7b7b0f0d114f5158",
-                  "employeeFullName":"職員",
-                  "possieName":"專員(一)"
                }
             ]
          ]
@@ -226,33 +157,17 @@ Here is a JSON representation of request.
                   "department":"總經理",
                   "photo":"",
                   "employeeFullName":"總經理",
+                  "employeeFullEName":"總經理",
                   "possieName":"總經理"
-               },
-               {
-                  "department":"總經理",
-                  "photo":"",
-                  "employeeFullName":"課長",
-                  "possieName":"課長(一)"
-               },
-               {
-                  "department":"副總",
-                  "photo":"",
-                  "employeeFullName":"副總",
-                  "possieName":"副總經理"
-               },
-               {
-                  "department":"部門長",
-                  "photo":"",
-                  "employeeFullName":"部門長",
-                  "possieName":"經理"
                }
             ],
             [
                {
-                  "department":"課",
-                  "photo":"/servlet/jform?em_step=2&file=hrm8w.pkg&enc=93d23f3a4b3f28574d52634f57504b50637a726f607b7b7b0f0d114f5158",
-                  "employeeFullName":"職員",
-                  "possieName":"專員(一)"
+                  "department":"總經理",
+                  "photo":"",
+                  "employeeFullName":"總經理",
+                  "employeeFullEName":"總經理",
+                  "possieName":"總經理"
                }
             ]
          ]
@@ -282,37 +197,35 @@ Here is a JSON representation of request.
                   "department":"總經理",
                   "photo":"",
                   "employeeFullName":"總經理",
+                  "employeeFullEName":"總經理",
                   "possieName":"總經理"
-               },
-               {
-                  "department":"部門長",
-                  "photo":"",
-                  "employeeFullName":"部門長",
-                  "possieName":"經理"
                }
             ],
             [
                {
                   "department":"總經理",
                   "photo":"",
-                  "employeeFullName":"課長",
-                  "possieName":"課長(一)"
+                  "employeeFullName":"總經理",
+                  "employeeFullEName":"總經理",
+                  "possieName":"總經理"
                }
             ],
             [
                {
-                  "department":"副總",
+                  "department":"總經理",
                   "photo":"",
-                  "employeeFullName":"副總",
-                  "possieName":"副總經理"
+                  "employeeFullName":"總經理",
+                  "employeeFullEName":"總經理",
+                  "possieName":"總經理"
                }
             ],
             [
                {
-                  "department":"課",
-                  "photo":"/servlet/jform?em_step=2&file=hrm8w.pkg&enc=93d23f3a4b3f28574d52634f57504b50637a726f607b7b7b0f0d114f5158",
-                  "employeeFullName":"職員",
-                  "possieName":"專員(一)"
+                  "department":"總經理",
+                  "photo":"",
+                  "employeeFullName":"總經理",
+                  "employeeFullEName":"總經理",
+                  "possieName":"總經理"
                }
             ]
          ]
@@ -333,31 +246,8 @@ Here is a JSON representation of request.
                   "department":"總經理",
                   "photo":"",
                   "employeeFullName":"總經理",
+                  "employeeFullEName":"總經理",
                   "possieName":"總經理"
-               },
-               {
-                  "department":"總經理",
-                  "photo":"",
-                  "employeeFullName":"課長",
-                  "possieName":"課長(一)"
-               },
-               {
-                  "department":"副總",
-                  "photo":"",
-                  "employeeFullName":"副總",
-                  "possieName":"副總經理"
-               },
-               {
-                  "department":"部門長",
-                  "photo":"",
-                  "employeeFullName":"部門長",
-                  "possieName":"經理"
-               },
-               {
-                  "department":"課",
-                  "photo":"/servlet/jform?em_step=2&file=hrm8w.pkg&enc=93d23f3a4b3f28574d52634f57504b50637a726f607b7b7b0f0d114f5158",
-                  "employeeFullName":"職員",
-                  "possieName":"專員(一)"
                }
             ]
          ]
@@ -381,33 +271,17 @@ Here is a JSON representation of request.
                   "department":"總經理",
                   "photo":"",
                   "employeeFullName":"總經理",
+                  "employeeFullEName":"總經理",
                   "possieName":"總經理"
-               },
-               {
-                  "department":"總經理",
-                  "photo":"",
-                  "employeeFullName":"課長",
-                  "possieName":"課長(一)"
-               },
-               {
-                  "department":"副總",
-                  "photo":"",
-                  "employeeFullName":"副總",
-                  "possieName":"副總經理"
-               },
-               {
-                  "department":"部門長",
-                  "photo":"",
-                  "employeeFullName":"部門長",
-                  "possieName":"經理"
                }
             ],
             [
                {
-                  "department":"課",
-                  "photo":"/servlet/jform?em_step=2&file=hrm8w.pkg&enc=93d23f3a4b3f28574d52634f57504b50637a726f607b7b7b0f0d114f5158",
-                  "employeeFullName":"職員",
-                  "possieName":"專員(一)"
+                  "department":"總經理",
+                  "photo":"",
+                  "employeeFullName":"總經理",
+                  "employeeFullEName":"總經理",
+                  "possieName":"總經理"
                }
             ]
          ]
@@ -428,55 +302,8 @@ Here is a JSON representation of request.
                   "department":"總經理",
                   "photo":"",
                   "employeeFullName":"總經理",
+                  "employeeFullEName":"總經理",
                   "possieName":"總經理"
-               },
-               {
-                  "department":"總經理",
-                  "photo":"",
-                  "employeeFullName":"課長",
-                  "possieName":"課長(一)"
-               },
-               {
-                  "department":"總經理",
-                  "photo":"",
-                  "employeeFullName":"課長",
-                  "possieName":"課長(一)"
-               },
-               {
-                  "department":"副總",
-                  "photo":"",
-                  "employeeFullName":"副總",
-                  "possieName":"副總經理"
-               },
-               {
-                  "department":"副總",
-                  "photo":"",
-                  "employeeFullName":"副總",
-                  "possieName":"副總經理"
-               },
-               {
-                  "department":"部門長",
-                  "photo":"",
-                  "employeeFullName":"部門長",
-                  "possieName":"經理"
-               },
-               {
-                  "department":"部門長",
-                  "photo":"",
-                  "employeeFullName":"部門長",
-                  "possieName":"經理"
-               },
-               {
-                  "department":"課",
-                  "photo":"/servlet/jform?em_step=2&file=hrm8w.pkg&enc=93d23f3a4b3f28574d52634f57504b50637a726f607b7b7b0f0d114f5158",
-                  "employeeFullName":"職員",
-                  "possieName":"專員(一)"
-               },
-               {
-                  "department":"課",
-                  "photo":"/servlet/jform?em_step=2&file=hrm8w.pkg&enc=93d23f3a4b3f28574d52634f57504b50637a726f607b7b7b0f0d114f5158",
-                  "employeeFullName":"職員",
-                  "possieName":"專員(一)"
                }
             ]
          ]
@@ -497,31 +324,8 @@ Here is a JSON representation of request.
                   "department":"總經理",
                   "photo":"",
                   "employeeFullName":"總經理",
+                  "employeeFullEName":"總經理",
                   "possieName":"總經理"
-               },
-               {
-                  "department":"總經理",
-                  "photo":"",
-                  "employeeFullName":"課長",
-                  "possieName":"課長(一)"
-               },
-               {
-                  "department":"副總",
-                  "photo":"",
-                  "employeeFullName":"副總",
-                  "possieName":"副總經理"
-               },
-               {
-                  "department":"部門長",
-                  "photo":"",
-                  "employeeFullName":"部門長",
-                  "possieName":"經理"
-               },
-               {
-                  "department":"課",
-                  "photo":"/servlet/jform?em_step=2&file=hrm8w.pkg&enc=93d23f3a4b3f28574d52634f57504b50637a726f607b7b7b0f0d114f5158",
-                  "employeeFullName":"職員",
-                  "possieName":"專員(一)"
                }
             ]
          ]
@@ -542,55 +346,8 @@ Here is a JSON representation of request.
                   "department":"總經理",
                   "photo":"",
                   "employeeFullName":"總經理",
+                  "employeeFullEName":"總經理",
                   "possieName":"總經理"
-               },
-               {
-                  "department":"總經理",
-                  "photo":"",
-                  "employeeFullName":"課長",
-                  "possieName":"課長(一)"
-               },
-               {
-                  "department":"總經理",
-                  "photo":"",
-                  "employeeFullName":"課長",
-                  "possieName":"課長(一)"
-               },
-               {
-                  "department":"副總",
-                  "photo":"",
-                  "employeeFullName":"副總",
-                  "possieName":"副總經理"
-               },
-               {
-                  "department":"副總",
-                  "photo":"",
-                  "employeeFullName":"副總",
-                  "possieName":"副總經理"
-               },
-               {
-                  "department":"部門長",
-                  "photo":"",
-                  "employeeFullName":"部門長",
-                  "possieName":"經理"
-               },
-               {
-                  "department":"部門長",
-                  "photo":"",
-                  "employeeFullName":"部門長",
-                  "possieName":"經理"
-               },
-               {
-                  "department":"課",
-                  "photo":"/servlet/jform?em_step=2&file=hrm8w.pkg&enc=93d23f3a4b3f28574d52634f57504b50637a726f607b7b7b0f0d114f5158",
-                  "employeeFullName":"職員",
-                  "possieName":"專員(一)"
-               },
-               {
-                  "department":"課",
-                  "photo":"/servlet/jform?em_step=2&file=hrm8w.pkg&enc=93d23f3a4b3f28574d52634f57504b50637a726f607b7b7b0f0d114f5158",
-                  "employeeFullName":"職員",
-                  "possieName":"專員(一)"
                }
             ]
          ]
