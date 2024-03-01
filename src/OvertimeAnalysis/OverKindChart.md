@@ -73,24 +73,29 @@ Here is a JSON representation of request.
          {
             "overTimeName":"一般加班",
             "people":5,
-            "depFullName":管理處 
+            "depFullName":管理處,
+            "depKey": "103143909931646579222"
+  
          },
          {
             "overTimeName":"一般加班",
             "people":2,
-            "depFullName":CPO
+            "depFullName":CPO,
+            "depKey": "103143909931646579222"
          }
       ],
       "lastPeriod":[
          {
             "overTimeName":"一般加班",
             "people":5,
-            "depFullName":CKO
+            "depFullName":CKO,
+            "depKey": "103143909931646579222"
          },
          {
             "overTimeName":"一般加班",
             "people":2,
-            "depFullName":CTO
+            "depFullName":CTO,
+            "depKey": "103143909931646579222"
          }
       ]
    }
