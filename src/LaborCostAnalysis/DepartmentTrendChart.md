@@ -100,6 +100,7 @@ Here is a JSON representation of request.
       "departmentData":[
          {
             "departmentName":"台北總公司",
+            "depKey":"4564654654654",
             "averageList":[
                11064,
                11064,
@@ -131,6 +132,7 @@ Here is a JSON representation of request.
          },
          {
             "departmentName":"董事長室",
+            "depKey":"4564654654654",
             "averageList":[
                267881,
                267511,
