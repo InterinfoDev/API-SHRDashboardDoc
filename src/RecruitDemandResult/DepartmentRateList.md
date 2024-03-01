@@ -71,6 +71,7 @@ Here is a JSON representation of request.
       "data":[
          {
             "depFullName":"董事長室",
+            "depKey":"103143909931646579222",
             "registerRate":0.0,
             "quitRate":0.0
          }
