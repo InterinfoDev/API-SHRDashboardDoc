@@ -97,6 +97,7 @@ Here is a JSON representation of request.
             "photo":"",
             "employeeId":"test2yearshour1",
             "employeeFullName":"測試兩年病假時數1",
+            "employeeFullEName":"test",
             "possieName":"職員",
             "vacationKind":[
                "2(時)測試兩年假別"
@@ -107,6 +108,7 @@ Here is a JSON representation of request.
          {
             "photo":"",
             "employeeId":"test2yearshour2",
+            "employeeFullEName":"test",
             "employeeFullName":"測試兩年病假時數2",
             "possieName":"職員",
             "vacationKind":[
@@ -119,6 +121,7 @@ Here is a JSON representation of request.
             "photo":"",
             "employeeId":"11204002",
             "employeeFullName":"測試排班請產假",
+            "employeeFullEName":"test",
             "possieName":"職員",
             "vacationKind":[
                "產假"
