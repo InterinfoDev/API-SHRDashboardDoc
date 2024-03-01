@@ -67,51 +67,19 @@ Here is a JSON representation of request.
     "responseBody": {
         "data": [
             {
+                "depKey": "194929819819",
+                "depCode": "444",
                 "lackRate": 0.0,
                 "replyRate": 0.0,
                 "depFullName": "銷售本部",
                 "interviewRate": 0.0
             },
             {
+                "depKey": "2897449874956",
+                "depCode": "434",
                 "lackRate": 0.0,
                 "replyRate": 0.0,
                 "depFullName": "人力資源部",
-                "interviewRate": 0.0
-            },
-            {
-                "lackRate": 0.0,
-                "replyRate": 0.0,
-                "depFullName": "勞安部",
-                "interviewRate": 0.0
-            },
-            {
-                "lackRate": 0.0,
-                "replyRate": 0.0,
-                "depFullName": "中央廚房",
-                "interviewRate": 0.0
-            },
-            {
-                "lackRate": 0.0,
-                "replyRate": 0.0,
-                "depFullName": "採購部",
-                "interviewRate": 0.0
-            },
-            {
-                "lackRate": 0.0,
-                "replyRate": 0.0,
-                "depFullName": "總務部",
-                "interviewRate": 0.0
-            },
-            {
-                "lackRate": 0.0,
-                "replyRate": 0.0,
-                "depFullName": "開發部",
-                "interviewRate": 0.0
-            },
-            {
-                "lackRate": 0.0,
-                "replyRate": 0.0,
-                "depFullName": "財會部",
                 "interviewRate": 0.0
             }
         ]
