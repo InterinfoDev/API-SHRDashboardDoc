@@ -98,6 +98,9 @@ Here is a JSON representation of request.
             "xaxis": {
                 "data": [
                     "樂樂復興店外場"
+                ],
+                "dataKey": [
+                    "45646685468168468"
                 ]
             }
         },
@@ -132,6 +135,9 @@ Here is a JSON representation of request.
             "xaxis": {
                 "data": [
                     "樂樂復興店外場"
+                ],
+                "dataKey": [
+                    "45646685468168468"
                 ]
             }
         }
