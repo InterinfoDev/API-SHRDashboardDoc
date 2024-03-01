@@ -68,7 +68,6 @@ Here is a JSON representation of request.
         "data": [
             {
                 "depKey": "194929819819",
-                "depCode": "444",
                 "lackRate": 0.0,
                 "replyRate": 0.0,
                 "depFullName": "銷售本部",
@@ -76,7 +75,6 @@ Here is a JSON representation of request.
             },
             {
                 "depKey": "2897449874956",
-                "depCode": "434",
                 "lackRate": 0.0,
                 "replyRate": 0.0,
                 "depFullName": "人力資源部",
