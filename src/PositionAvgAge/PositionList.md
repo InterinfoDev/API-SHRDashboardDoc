@@ -74,6 +74,7 @@ Here is a JSON representation of request.
          {
             "avgYear":"6.03",
             "empFullName":"王O英",
+            "empFullEName":"JIA",
             "department":"勞安部",
             "position":"專員",
             "photo":"",
@@ -89,6 +90,7 @@ Here is a JSON representation of request.
          },
          {
             "avgYear":"6.12",
+            "empFullName":"王O英",
             "empFullName":"王O英",
             "department":"勞安部",
             "position":"專員",
@@ -106,6 +108,7 @@ Here is a JSON representation of request.
          {
             "avgYear":"6.66",
             "empFullName":"王O足",
+            "empFullEName":"KIOE",
             "department":"總務部",
             "position":"專員",
             "photo":"",
@@ -122,6 +125,7 @@ Here is a JSON representation of request.
          {
             "avgYear":"7.51",
             "empFullName":"王O足",
+            "empFullEName":"KIOE",
             "department":"總務部",
             "position":"專員",
             "photo":"",
@@ -138,6 +142,7 @@ Here is a JSON representation of request.
          {
             "avgYear":"10.36",
             "empFullName":"王O足",
+            "empFullEName":"KIOE",
             "department":"總務部",
             "position":"專員",
             "photo":"",
@@ -154,6 +159,7 @@ Here is a JSON representation of request.
          {
             "avgYear":"",
             "empFullName":"王OA",
+            "empFullEName":"KIOE",
             "department":"勞安部",
             "position":"外場-兼職三級",
             "photo":"",
@@ -170,6 +176,7 @@ Here is a JSON representation of request.
          {
             "avgYear":"",
             "empFullName":"王O無",
+            "empFullEName":"KIOE",
             "department":"勞安部",
             "position":"經理",
             "photo":"",
@@ -186,6 +193,7 @@ Here is a JSON representation of request.
          {
             "avgYear":"",
             "empFullName":"王OA",
+            "empFullEName":"KIOE",
             "department":"勞安部",
             "position":"外場-兼職三級",
             "photo":"",
@@ -202,6 +210,7 @@ Here is a JSON representation of request.
          {
             "avgYear":"",
             "empFullName":"王O無",
+            "empFullEName":"KIOE",
             "department":"勞安部",
             "position":"經理",
             "photo":"",
@@ -218,6 +227,7 @@ Here is a JSON representation of request.
          {
             "avgYear":"",
             "empFullName":"蔡O芬",
+            "empFullEName":"KIOE",
             "department":"總務部",
             "position":"按摩人員",
             "photo":"",
@@ -234,6 +244,7 @@ Here is a JSON representation of request.
          {
             "avgYear":"",
             "empFullName":"王O真",
+            "empFullEName":"KIOE",
             "department":"總務部",
             "position":"按摩人員",
             "photo":"",
@@ -250,6 +261,7 @@ Here is a JSON representation of request.
          {
             "avgYear":"",
             "empFullName":"王O蓉",
+            "empFullEName":"KIOE",
             "department":"總務部",
             "position":"專員",
             "photo":"/hrm4/photo/1652684936132_S__127991850.jpg",
@@ -266,6 +278,7 @@ Here is a JSON representation of request.
          {
             "avgYear":"",
             "empFullName":"王O芳",
+            "empFullEName":"KIOE",
             "department":"總務部",
             "position":"司機",
             "photo":"",
@@ -282,6 +295,7 @@ Here is a JSON representation of request.
          {
             "avgYear":"",
             "empFullName":"蔡O璐",
+            "empFullEName":"KIOE",
             "department":"總務部",
             "position":"專員",
             "photo":"",
@@ -298,6 +312,7 @@ Here is a JSON representation of request.
          {
             "avgYear":"",
             "empFullName":"蔡O芬",
+            "empFullEName":"KIOE",
             "department":"總務部",
             "position":"按摩人員",
             "photo":"",
@@ -314,6 +329,7 @@ Here is a JSON representation of request.
          {
             "avgYear":"",
             "empFullName":"王O真",
+            "empFullEName":"KIOE",
             "department":"總務部",
             "position":"按摩人員",
             "photo":"",
@@ -330,6 +346,7 @@ Here is a JSON representation of request.
          {
             "avgYear":"",
             "empFullName":"王O蓉",
+            "empFullEName":"KIOE",
             "department":"總務部",
             "position":"專員",
             "photo":"/hrm4/photo/1652684936132_S__127991850.jpg",
@@ -346,6 +363,7 @@ Here is a JSON representation of request.
          {
             "avgYear":"",
             "empFullName":"王O芳",
+            "empFullEName":"KIOE",
             "department":"總務部",
             "position":"司機",
             "photo":"",
@@ -362,6 +380,7 @@ Here is a JSON representation of request.
          {
             "avgYear":"",
             "empFullName":"蔡O璐",
+            "empFullEName":"KIOE",
             "department":"總務部",
             "position":"專員",
             "photo":"",
@@ -378,6 +397,7 @@ Here is a JSON representation of request.
          {
             "avgYear":"",
             "empFullName":"蔡O芬",
+            "empFullEName":"KIOE",
             "department":"總務部",
             "position":"按摩人員",
             "photo":"",
@@ -394,6 +414,7 @@ Here is a JSON representation of request.
          {
             "avgYear":"",
             "empFullName":"王O真",
+            "empFullEName":"KIOE",
             "department":"總務部",
             "position":"按摩人員",
             "photo":"",
@@ -410,6 +431,7 @@ Here is a JSON representation of request.
          {
             "avgYear":"",
             "empFullName":"王O蓉",
+            "empFullEName":"KIOE",
             "department":"總務部",
             "position":"專員",
             "photo":"/hrm4/photo/1652684936132_S__127991850.jpg",
@@ -426,6 +448,7 @@ Here is a JSON representation of request.
          {
             "avgYear":"",
             "empFullName":"王O芳",
+            "empFullEName":"KIOE",
             "department":"總務部",
             "position":"司機",
             "photo":"",
@@ -442,6 +465,7 @@ Here is a JSON representation of request.
          {
             "avgYear":"",
             "empFullName":"蔡O璐",
+            "empFullEName":"KIOE",
             "department":"總務部",
             "position":"專員",
             "photo":"",
