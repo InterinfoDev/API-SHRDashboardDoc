@@ -80,7 +80,8 @@ Here is a JSON representation of request.
             "inDate":"20110901",
             "experience":10.8,
             "growRate":6000,
-            "companyName":"總務部"
+            "depName":"總務部",
+            "depKey":"45468489416846"
          },
          {
             "photo":"https://applv1.ecmaker-cloud.com/servlet/jform?em_step=2&file=hrm8w.pkg&enc=93d23f3a4b3f3a090f110f0f",
@@ -90,7 +91,8 @@ Here is a JSON representation of request.
             "inDate":"20190811",
             "experience":2.8,
             "growRate":6000,
-            "companyName":"儲運組"
+            "depName":"儲運組",
+            "depKey":"45468489416846"
          }
       ],
       "label":[
