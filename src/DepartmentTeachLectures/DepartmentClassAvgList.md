@@ -84,6 +84,7 @@ Here is a JSON representation of request.
          {
             "avgHours":2.0,
             "depFullName":"人力資源部",
+            "depKey": "98422770919299281204"
             "joinPeople":4,
             "totalPeople":4,
             "totalAmt":8.0,
