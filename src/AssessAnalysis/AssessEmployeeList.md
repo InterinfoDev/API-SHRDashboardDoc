@@ -108,38 +108,13 @@ Here is a JSON representation of request.
          {
             "photo":"babylon\\\\files\\\\履歷表.\\\\1612422826425_FF06C9BA-F491-4DE4-A926-044846627EC7.jpeg",
             "empFullName":"王O彬",
+            "empFullEName":"KEE",
             "employee":"11002058",
             "departmentName":"友善外場",
+            "depKey":"465468468",
             "assessScore":"60.00",
             "workYears":"1.39",
             "inDate":"20210208"
-         },
-         {
-            "photo":"",
-            "empFullName":"王O英",
-            "employee":"10206047",
-            "departmentName":"人力資源部",
-            "assessScore":"60.00",
-            "workYears":"9.02",
-            "inDate":"20130624"
-         },
-         {
-            "photo":"",
-            "empFullName":"王O嘉",
-            "employee":"10802031",
-            "departmentName":"勞安部",
-            "assessScore":"60.00",
-            "workYears":"3.38",
-            "inDate":"20190211"
-         },
-         {
-            "photo":"",
-            "empFullName":"王O涵",
-            "employee":"11005049",
-            "departmentName":"秘書室",
-            "assessScore":"60.00",
-            "workYears":"1.10",
-            "inDate":"20210524"
          }
       ]
    }
