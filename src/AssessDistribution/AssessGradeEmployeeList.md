@@ -68,7 +68,7 @@ Here is a JSON representation of request.
       "data":[
          {
             "photo":"",
-            "employeeName":"王O萱",
+            "employeeFullName":"王O萱",
             "employeeFullEName":"王O萱",
             "departmentName":"秘書室",
             "inDate":"20210217",
