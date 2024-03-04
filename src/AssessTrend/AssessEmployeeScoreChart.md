@@ -70,9 +70,14 @@ Here is a JSON representation of request.
    "responseBody":{
       "filterIndex":{
          "data":[
-            22,
-            22,
-            22
+            "行政部",
+            "行政部",
+            "行政部"
+         ]
+        ,"dataKey":[
+            "102347559807309871092",
+            "102347559807309871093",
+            "102347559807309871094"
          ]
       },
       "series":[
