@@ -69,36 +69,10 @@ Here is a JSON representation of request.
          {
             "photo":"",
             "employeeName":"王O萱",
+            "employeeFullEName":"王O萱",
             "departmentName":"秘書室",
             "inDate":"20210217",
             "experience":2.0,
-            "grade":"優等",
-            "pass":true
-         },
-         {
-            "photo":"",
-            "employeeName":"王O琪",
-            "departmentName":"品保課",
-            "inDate":"20210504",
-            "experience":1.8,
-            "grade":"優等",
-            "pass":true
-         },
-         {
-            "photo":"",
-            "employeeName":"王O涵",
-            "departmentName":"秘書室",
-            "inDate":"20210524",
-            "experience":1.8,
-            "grade":"優等",
-            "pass":true
-         },
-         {
-            "photo":"https://applv1.ecmaker-cloud.com/servlet/jform?em_step=2&file=hrm8w.pkg&enc=93d23f3a4b3f1110574d520b104f57504b50100e090a0d09070a0e0d0a0d0b08600d0f0f0b0f0e0d0e0d08120e1f170d1611554f58",
-            "employeeName":"王O霜",
-            "departmentName":"財會部",
-            "inDate":"20210628",
-            "experience":1.7,
             "grade":"優等",
             "pass":true
          }
