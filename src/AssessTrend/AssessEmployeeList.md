@@ -74,7 +74,8 @@ Here is a JSON representation of request.
       "data":[
          {
             "photo":"https://applv1.ecmaker-cloud.com/servlet/jform?em_step=2&file=hrm8w.pkg&enc=93d23f3a4b3f3a090f110f0f",
-            "employeeName":"王O足",
+            "employeeFullName":"王O足",
+            "employeeFullEName":"andy",
             "employeeId":"10009002",
             "inDate":"20110901",
             "experience":10.8,
@@ -83,7 +84,8 @@ Here is a JSON representation of request.
          },
          {
             "photo":"https://applv1.ecmaker-cloud.com/servlet/jform?em_step=2&file=hrm8w.pkg&enc=93d23f3a4b3f3a090f110f0f",
-            "employeeName":"王O新",
+            "employeeFullName":"王O足",
+            "employeeFullEName":"andy",
             "employeeId":"10808055",
             "inDate":"20190811",
             "experience":2.8,
