@@ -77,7 +77,8 @@ Here is a JSON representation of request.
                0.0,
                0.0
             ],
-            "name":"財會部"
+            "name":"財會部",
+            "nameKey": "103143909931646579222"
          },
          {
             "data":[
@@ -90,7 +91,8 @@ Here is a JSON representation of request.
                0.0,
                0.0
             ],
-            "name":"勞安部"
+            "name":"勞安部",
+            "nameKey": "103143909931646579254"
          }
       ],
       "xaxis":{
