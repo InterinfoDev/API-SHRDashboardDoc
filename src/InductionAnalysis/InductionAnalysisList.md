@@ -354,10 +354,6 @@ Here is a JSON representation of request.
       },
       "title":[
          {
-            "titleKey":"photo",
-            "titleName":""
-         },
-         {
             "titleKey":"employeeFullName",
             "titleName":"姓名"
          },
