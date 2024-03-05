@@ -361,17 +361,13 @@ Here is a JSON representation of request.
                   "department":"L1線A班",
                   "photo":"",
                   "employeeFullName":"欒O鈞",
-                  "employeeFullName":"SSD",
+                  "employeeFullEName":"SSD",
                   "possieName":"執行長(二)"
                }
             ]
          ]
       },
       "title":[
-         {
-            "titleKey":"photo",
-            "titleName":""
-         },
          {
             "titleKey":"employeeFullName",
             "titleName":"姓名"
