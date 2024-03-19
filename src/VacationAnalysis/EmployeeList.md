@@ -54,7 +54,6 @@ Here is a JSON representation of request.
 |:----------|:-------------|
 | title | 標題 |
 | labelName | 標題名稱 |
-|  |
 | photo | 照片 |
 | employeeId | 員工編號 |
 | employeeFullName | 員工名稱 |
@@ -99,9 +98,8 @@ Here is a JSON representation of request.
             "employeeFullName":"測試兩年病假時數1",
             "employeeFullEName":"test",
             "possieName":"職員",
-            "vacationKind":[
-               "2(時)測試兩年假別"
-            ],
+            "vacationKind":"2(時)測試兩年假別"
+            ,
             "departmentFullName":"勞安部",
             "employeeFullEName":""
          },
@@ -111,9 +109,8 @@ Here is a JSON representation of request.
             "employeeFullEName":"test",
             "employeeFullName":"測試兩年病假時數2",
             "possieName":"職員",
-            "vacationKind":[
-               "2(時)測試兩年假別"
-            ],
+            "vacationKind":"2(時)測試兩年假別"
+            ,
             "departmentFullName":"勞安部",
             "employeeFullEName":""
          },
@@ -123,9 +120,8 @@ Here is a JSON representation of request.
             "employeeFullName":"測試排班請產假",
             "employeeFullEName":"test",
             "possieName":"職員",
-            "vacationKind":[
-               "產假"
-            ],
+            "vacationKind":"產假"
+            ,
             "departmentFullName":"勞安部",
             "employeeFullEName":""
          }
