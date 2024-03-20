@@ -73,37 +73,43 @@ Here is a JSON representation of request.
       "identifyData":[
          {
             "fieldName":"單位名稱",
-            "value":"經營管理",
+            "fieldKey":"depName",
+            "value":"技術用部",
             "oldValue":"",
             "change":false
          },
          {
             "fieldName":"員工編號",
-            "value":"L089100",
+            "fieldKey":"employeeId",
+            "value":"L105",
             "oldValue":"",
             "change":false
          },
          {
             "fieldName":"員工姓名",
-            "value":"陳汝玲",
+            "fieldKey":"employeeFullName",
+            "value":"盧靜安",
             "oldValue":"",
             "change":false
          },
          {
             "fieldName":"職稱",
-            "value":"副總經理",
+            "fieldKey":"possieName",
+            "value":"工程師",
             "oldValue":"",
             "change":false
          },
          {
             "fieldName":"照片",
-            "value":"/servlet/jform?em_step=2&file=hrm8biw.pkg&enc=93d23f3a4b3f1a1110574d52104f57504b50100f0b0f060f0b0c0e0e0d0d0d0860060c0f090f0d0f114f5158",
+            "fieldKey":"photo",
+            "value":"/servlet/jform?em_step=2&file=hrm8biw.pkg&enc=93d23f3a4b3f1a1110574d52104f57504b50d0d0860060c0f090f0d0f114f5158",
             "oldValue":"",
             "change":false
          },
          {
             "fieldName":"分機號碼",
-            "value":"100",
+            "fieldKey":"extensionNumber",
+            "value":"52",
             "oldValue":"",
             "change":false
          }
@@ -111,72 +117,84 @@ Here is a JSON representation of request.
       "personalData":[
          {
             "fieldName":"員工姓名",
-            "value":"陳汝玲",
+            "fieldKey":"employeeFullName",
+            "value":"盧靜安",
             "oldValue":"",
             "change":false
          },
          {
             "fieldName":"行事曆班別",
+            "fieldKey":"shift",
             "value":"日常班",
             "oldValue":"",
             "change":false
          },
          {
             "fieldName":"婚姻",
-            "value":"已婚",
+            "fieldKey":"marry",
+            "value":"未婚",
             "oldValue":"",
             "change":false
          },
          {
             "fieldName":"電子信箱",
+            "fieldKey":"email",
             "value":"",
             "oldValue":"",
             "change":true
          },
          {
             "fieldName":"到職日期",
-            "value":"2000/06/26",
+            "fieldKey":"startDate",
+            "value":"2021/08/23",
             "oldValue":"",
             "change":false
          },
          {
             "fieldName":"工作地點",
-            "value":"新北-建一",
+            "fieldKey":"place",
+            "value":"新北-建八",
             "oldValue":"",
             "change":false
          },
          {
             "fieldName":"聯絡電話",
+            "fieldKey":"telephoneNumber",
             "value":"",
             "oldValue":"",
             "change":true
          },
          {
             "fieldName":"行動電話",
+            "fieldKey":"cellphoneNumber",
             "value":"",
             "oldValue":"",
             "change":true
          },
          {
             "fieldName":"身高",
-            "value":"0",
+            "fieldKey":"tall",
+            "value":"180",
             "oldValue":"",
             "change":false
          },
          {
             "fieldName":"是否代扣所得稅",
-            "value":"",
+            "fieldKey":"tax",
+            "value":"Y",
             "oldValue":"",
-            "change":true
+            "change":false
          },
          {
             "fieldName":"是否為原住民",
+            "fieldKey":"originalResident",
             "value":"N",
             "oldValue":"",
             "change":false
          },
          {
             "fieldName":"體重",
+            "fieldKey":"weight",
             "value":"0",
             "oldValue":"",
             "change":false
@@ -185,72 +203,84 @@ Here is a JSON representation of request.
       "connectData":[
          {
             "fieldName":"戶籍郵遞區號",
-            "value":"234",
+            "fieldKey":"residencePostalCode",
+            "value":"251",
             "oldValue":"",
             "change":false
          },
          {
             "fieldName":"戶籍地址",
+            "fieldKey":"residentialAddress",
             "value":"",
             "oldValue":"",
             "change":true
          },
          {
             "fieldName":"戶籍電話",
+            "fieldKey":"residentialPhoneNumber",
             "value":"",
             "oldValue":"",
             "change":true
          },
          {
             "fieldName":"現址郵遞區號",
-            "value":"234",
+            "fieldKey":"currentPostalCode",
+            "value":"251",
             "oldValue":"",
             "change":false
          },
          {
             "fieldName":"現址地址",
+            "fieldKey":"currentAddress",
             "value":"",
             "oldValue":"",
             "change":true
          },
          {
             "fieldName":"現址電話",
+            "fieldKey":"currentPhoneNumber",
             "value":"",
             "oldValue":"",
             "change":true
          },
          {
             "fieldName":"通訊郵遞區號",
-            "value":"234",
+            "fieldKey":"mailingPostalCode",
+            "value":"251",
             "oldValue":"",
             "change":false
          },
          {
             "fieldName":"通訊地址",
+            "fieldKey":"mailingAddress",
             "value":"",
             "oldValue":"",
             "change":true
          },
          {
             "fieldName":"通訊電話",
+            "fieldKey":"contactPhoneNumber",
             "value":"",
             "oldValue":"",
             "change":true
          },
          {
             "fieldName":"緊急聯絡人姓名",
-            "value":"OO",
+            "fieldKey":"emergencyContactFullName",
+            "value":"吳OO",
             "oldValue":"",
             "change":false
          },
          {
             "fieldName":"緊急聯絡人關係",
-            "value":"",
+            "fieldKey":"relationshipToEmergencyContact",
+            "value":"父子",
             "oldValue":"",
-            "change":true
+            "change":false
          },
          {
             "fieldName":"緊急聯絡人電話",
+            "fieldKey":"emergencyContactPhoneNumber",
             "value":"",
             "oldValue":"",
             "change":true
@@ -259,42 +289,49 @@ Here is a JSON representation of request.
       "educationData":[
          {
             "fieldName":"最高學歷",
+            "fieldKey":"highestLevelOfEducation",
             "value":"學士",
             "oldValue":"",
             "change":false
          },
          {
             "fieldName":"畢業學校",
-            "value":"淡江大學",
+            "fieldKey":"graduatedSchool",
+            "value":"大學",
             "oldValue":"",
             "change":false
          },
          {
             "fieldName":"主修科系",
-            "value":"電子計算機應用學系",
+            "fieldKey":"majorSubject",
+            "value":"中餐藝系",
             "oldValue":"",
             "change":false
          },
          {
             "fieldName":"請假時通知人員",
-            "value":"L091158,L091163,L093217,L089069 L101400 L098341",
+            "fieldKey":"takeLeaveNotifyPerson",
+            "value":"",
             "oldValue":"",
-            "change":false
+            "change":true
          },
          {
             "fieldName":"畢肄業年月",
-            "value":"1987/06",
+            "fieldKey":"graduationDate",
+            "value":"2018/06",
             "oldValue":"",
             "change":false
          },
          {
             "fieldName":"留職停薪迄日",
+            "fieldKey":"endDateOfLeaveWithoutPay",
             "value":"",
             "oldValue":"",
             "change":true
          },
          {
             "fieldName":"留職停薪起日",
+            "fieldKey":"startDateOfLeaveWithoutPay",
             "value":"",
             "oldValue":"",
             "change":true
@@ -303,61 +340,71 @@ Here is a JSON representation of request.
       "benefitData":[
          {
             "fieldName":"健保生效日",
-            "value":"2020/10/23",
+            "fieldKey":"healthInsuranceStartDate",
+            "value":"2021/08/23",
             "oldValue":"",
             "change":false
          },
          {
             "fieldName":"健保等級",
+            "fieldKey":"healthInsuranceLevel",
             "value":"26400",
             "oldValue":"",
             "change":false
          },
          {
             "fieldName":"健保優惠專案",
+            "fieldKey":"healthInsuranceDiscountProgram",
             "value":"",
             "oldValue":"",
             "change":true
          },
          {
             "fieldName":"健保眷口數",
-            "value":"0",
+            "fieldKey":"healthInsuranceOfFamily",
+            "value":"1",
             "oldValue":"",
             "change":false
          },
          {
             "fieldName":"勞保生效日",
-            "value":"2020/10/23",
+            "fieldKey":"laborInsuranceStartDate",
+            "value":"2021/08/23",
             "oldValue":"",
             "change":false
          },
          {
             "fieldName":"勞保等級",
+            "fieldKey":"laborInsuranceLevel",
             "value":"26400",
             "oldValue":"",
             "change":false
          },
          {
             "fieldName":"勞保優惠專案",
+            "fieldKey":"laborInsuranceDiscountProgram",
             "value":"",
             "oldValue":"",
             "change":true
          },
          {
             "fieldName":"公司提撥退休金",
+            "fieldKey":"companyPensionContribution",
             "value":"新制",
             "oldValue":"",
             "change":false
          },
          {
             "fieldName":"退休金等級",
+            "fieldKey":"pensionTier",
             "value":"26400",
             "oldValue":"",
             "change":false
          },
          {
             "fieldName":"扶養人數",
-            "value":"2",
+            "fieldKey":"numberOfDependent",
+            "value":"0",
             "oldValue":"",
             "change":false
          }
@@ -372,47 +419,16 @@ Here is a JSON representation of request.
                "備註",
                "檔案下載"
             ],
+            "titleKey":[
+               "certificate",
+               "dateOfAcquisition",
+               "effectivePeriod",
+               "calculateCertificationAllowance",
+               "note",
+               "fileDownload"
+            ],
             "data":[
-               [
-                  "HR-薪酬管理師",
-                  "1998/03/05",
-                  "",
-                  "N",
-                  "",
-                  ""
-               ],
-               [
-                  "HR-員工發展管理師",
-                  "1998/01/09",
-                  "",
-                  "N",
-                  "",
-                  ""
-               ],
-               [
-                  "HR-職能管理師",
-                  "2007/09/01",
-                  "",
-                  "N",
-                  "",
-                  ""
-               ],
-               [
-                  "HR-TTQS管理師",
-                  "2007/06/01",
-                  "",
-                  "N",
-                  "",
-                  ""
-               ],
-               [
-                  "HR-個人資料保護顧問培訓",
-                  "",
-                  "",
-                  "N",
-                  "",
-                  ""
-               ]
+               
             ],
             "show":true
          },
@@ -424,6 +440,14 @@ Here is a JSON representation of request.
                "結束日期",
                "備註",
                "檔案下載"
+            ],
+            "titleKey":[
+               "sequence",
+               "contractName",
+               "startDate",
+               "endDate",
+               "note",
+               "fileDownload"
             ],
             "data":[
                
@@ -445,6 +469,20 @@ Here is a JSON representation of request.
                "備註",
                "檔案下載"
             ],
+            "titleKey":[
+               "companyName",
+               "courseName",
+               "teachingInstitution",
+               "startDate",
+               "endDate",
+               "allHours",
+               "trainingMethod",
+               "instructor",
+               "score",
+               "certificateNumber",
+               "note",
+               "fileDownload"
+            ],
             "data":[
                
             ],
@@ -463,6 +501,19 @@ Here is a JSON representation of request.
                "考核等第",
                "年資",
                "備註"
+            ],
+            "titleKey":[
+               "companyName",
+               "depName",
+               "year",
+               "assessmentItem",
+               "scoringOfWorkObjectives",
+               "scoringOfCompanyPolicies",
+               "ManagerAssessment",
+               "totalScores",
+               "assessmentGrade",
+               "yearsOfService",
+               "note"
             ],
             "data":[
                
@@ -494,6 +545,16 @@ Here is a JSON representation of request.
                "報扶養",
                "健保優惠"
             ],
+            "titleKey":[
+               "identifyNumber",
+               "employeeFullName",
+               "birthDay",
+               "gender",
+               "salutation",
+               "addHealthInsurance",
+               "reportDependent",
+               "healthInsuranceBenefit"
+            ],
             "data":[
                
             ],
@@ -512,6 +573,19 @@ Here is a JSON representation of request.
                "離職原因",
                "行業別",
                "檔案下載"
+            ],
+            "titleKey":[
+               "companyName",
+               "depName",
+               "salutation",
+               "startYM",
+               "endYM",
+               "compensation",
+               "note",
+               "yearsOfService",
+               "leavingReason",
+               "industry",
+               "fileDownload"
             ],
             "data":[
                
